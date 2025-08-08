@@ -1,0 +1,4982 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`admonition 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 4,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 4,
+        },
+      },
+      "range": Array [
+        32,
+        45,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        74,
+        82,
+      ],
+      "raw": "// block",
+      "type": "Comment",
+      "value": "block",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 21,
+              "line": 2,
+            },
+            "start": Object {
+              "column": 6,
+              "line": 2,
+            },
+          },
+          "range": Array [
+            15,
+            30,
+          ],
+          "raw": "This is a note.",
+          "type": "Str",
+          "value": "This is a note.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 21,
+          "line": 2,
+        },
+        "start": Object {
+          "column": 6,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        15,
+        30,
+      ],
+      "raw": "This is a note.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 19,
+              "line": 6,
+            },
+            "start": Object {
+              "column": 5,
+              "line": 6,
+            },
+          },
+          "range": Array [
+            58,
+            72,
+          ],
+          "raw": "This is a tip.",
+          "type": "Str",
+          "value": "This is a tip.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 5,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        58,
+        72,
+      ],
+      "raw": "This is a tip.",
+      "title": "title",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 18,
+                  "line": 11,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 11,
+                },
+              },
+              "range": Array [
+                98,
+                116,
+              ],
+              "raw": "This is a warning.",
+              "type": "Str",
+              "value": "This is a warning.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 18,
+              "line": 11,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 11,
+            },
+          },
+          "range": Array [
+            98,
+            116,
+          ],
+          "raw": "This is a warning.",
+          "type": "Paragraph",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "children": Array [
+                    Object {
+                      "loc": Object {
+                        "end": Object {
+                          "column": 6,
+                          "line": 13,
+                        },
+                        "start": Object {
+                          "column": 2,
+                          "line": 13,
+                        },
+                      },
+                      "range": Array [
+                        120,
+                        124,
+                      ],
+                      "raw": "list",
+                      "type": "Str",
+                      "value": "list",
+                    },
+                  ],
+                  "loc": Object {
+                    "end": Object {
+                      "column": 6,
+                      "line": 13,
+                    },
+                    "start": Object {
+                      "column": 2,
+                      "line": 13,
+                    },
+                  },
+                  "range": Array [
+                    120,
+                    124,
+                  ],
+                  "raw": "list",
+                  "type": "Paragraph",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 6,
+                  "line": 13,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 13,
+                },
+              },
+              "range": Array [
+                120,
+                124,
+              ],
+              "raw": "",
+              "type": "ListItem",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 6,
+              "line": 13,
+            },
+            "start": Object {
+              "column": 2,
+              "line": 13,
+            },
+          },
+          "range": Array [
+            120,
+            124,
+          ],
+          "raw": "",
+          "type": "List",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 6,
+          "line": 13,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 11,
+        },
+      },
+      "range": Array [
+        98,
+        124,
+      ],
+      "raw": "",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 6,
+      "line": 13,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    129,
+  ],
+  "raw": "// basic
+NOTE: This is a note.
+
+// with title
+.title
+TIP: This is a tip.
+
+// block
+[WARNING]
+====
+This is a warning.
+
+* list
+====",
+  "type": "Document",
+}
+`;
+
+exports[`example 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        25,
+        38,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 13,
+              "line": 6,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 6,
+            },
+          },
+          "range": Array [
+            25,
+            38,
+          ],
+          "raw": "// with title",
+          "type": "Comment",
+          "value": "with title",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 4,
+                  "line": 3,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 3,
+                },
+              },
+              "range": Array [
+                14,
+                18,
+              ],
+              "raw": "text",
+              "type": "Str",
+              "value": "text",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 4,
+              "line": 3,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 3,
+            },
+          },
+          "range": Array [
+            14,
+            18,
+          ],
+          "raw": "text",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 3,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        25,
+        18,
+      ],
+      "raw": "",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 15,
+                  "line": 9,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 9,
+                },
+              },
+              "range": Array [
+                51,
+                66,
+              ],
+              "raw": "text with title",
+              "type": "Str",
+              "value": "text with title",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 15,
+              "line": 9,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 9,
+            },
+          },
+          "range": Array [
+            51,
+            66,
+          ],
+          "raw": "text with title",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 9,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 9,
+        },
+      },
+      "range": Array [
+        51,
+        66,
+      ],
+      "raw": "",
+      "title": "title",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 15,
+      "line": 9,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    71,
+  ],
+  "raw": "// basic
+====
+text
+====
+
+// with title
+.title
+====
+text with title
+====",
+  "type": "Document",
+}
+`;
+
+exports[`inline quoted 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 11,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        11,
+      ],
+      "raw": "// emphasis",
+      "type": "Comment",
+      "value": "emphasis",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 4,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 4,
+        },
+      },
+      "range": Array [
+        44,
+        63,
+      ],
+      "raw": "// partial emphasis",
+      "type": "Comment",
+      "value": "partial emphasis",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 9,
+          "line": 7,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 7,
+        },
+      },
+      "range": Array [
+        105,
+        114,
+      ],
+      "raw": "// strong",
+      "type": "Comment",
+      "value": "strong",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 17,
+          "line": 10,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 10,
+        },
+      },
+      "range": Array [
+        144,
+        161,
+      ],
+      "raw": "// partial strong",
+      "type": "Comment",
+      "value": "partial strong",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 12,
+          "line": 13,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 13,
+        },
+      },
+      "range": Array [
+        201,
+        213,
+      ],
+      "raw": "// monospace",
+      "type": "Comment",
+      "value": "monospace",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 20,
+          "line": 16,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 16,
+        },
+      },
+      "range": Array [
+        246,
+        266,
+      ],
+      "raw": "// partial monospace",
+      "type": "Comment",
+      "value": "partial monospace",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 7,
+          "line": 19,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 19,
+        },
+      },
+      "range": Array [
+        309,
+        316,
+      ],
+      "raw": "// mark",
+      "type": "Comment",
+      "value": "mark",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 17,
+          "line": 22,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 22,
+        },
+      },
+      "range": Array [
+        344,
+        361,
+      ],
+      "raw": "// mark with role",
+      "type": "Comment",
+      "value": "mark with role",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 25,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 25,
+        },
+      },
+      "range": Array [
+        403,
+        418,
+      ],
+      "raw": "// .superscript",
+      "type": "Comment",
+      "value": ".superscript",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 28,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 28,
+        },
+      },
+      "range": Array [
+        453,
+        466,
+      ],
+      "raw": "// .subscript",
+      "type": "Comment",
+      "value": ".subscript",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 31,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 31,
+        },
+      },
+      "range": Array [
+        499,
+        514,
+      ],
+      "raw": "// double quote",
+      "type": "Comment",
+      "value": "double quote",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 34,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 34,
+        },
+      },
+      "range": Array [
+        553,
+        568,
+      ],
+      "raw": "// single quote",
+      "type": "Comment",
+      "value": "single quote",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 37,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 37,
+        },
+      },
+      "range": Array [
+        607,
+        620,
+      ],
+      "raw": "// apostrophe",
+      "type": "Comment",
+      "value": "apostrophe",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 40,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 40,
+        },
+      },
+      "range": Array [
+        656,
+        686,
+      ],
+      "raw": "// mixed monospace bold italic",
+      "type": "Comment",
+      "value": "mixed monospace bold italic",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 2,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 2,
+            },
+          },
+          "range": Array [
+            12,
+            42,
+          ],
+          "raw": "This is an _emphasis_ example.",
+          "type": "Str",
+          "value": "This is an emphasis example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 2,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        12,
+        42,
+      ],
+      "raw": "This is an _emphasis_ example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 39,
+              "line": 5,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 5,
+            },
+          },
+          "range": Array [
+            64,
+            103,
+          ],
+          "raw": "This is a __part__ial emphasis example.",
+          "type": "Str",
+          "value": "This is a partial emphasis example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 39,
+          "line": 5,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 5,
+        },
+      },
+      "range": Array [
+        64,
+        103,
+      ],
+      "raw": "This is a __part__ial emphasis example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 27,
+              "line": 8,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 8,
+            },
+          },
+          "range": Array [
+            115,
+            142,
+          ],
+          "raw": "This is a *strong* example.",
+          "type": "Str",
+          "value": "This is a strong example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 27,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        115,
+        142,
+      ],
+      "raw": "This is a *strong* example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 37,
+              "line": 11,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 11,
+            },
+          },
+          "range": Array [
+            162,
+            199,
+          ],
+          "raw": "This is a **part**ial strong example.",
+          "type": "Str",
+          "value": "This is a partial strong example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 37,
+          "line": 11,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 11,
+        },
+      },
+      "range": Array [
+        162,
+        199,
+      ],
+      "raw": "This is a **part**ial strong example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 14,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 14,
+            },
+          },
+          "range": Array [
+            214,
+            244,
+          ],
+          "raw": "This is a \`monospace\` example.",
+          "type": "Str",
+          "value": "This is a monospace example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 14,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 14,
+        },
+      },
+      "range": Array [
+        214,
+        244,
+      ],
+      "raw": "This is a \`monospace\` example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 40,
+              "line": 17,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 17,
+            },
+          },
+          "range": Array [
+            267,
+            307,
+          ],
+          "raw": "This is a \`\`part\`\`ial monospace example.",
+          "type": "Str",
+          "value": "This is a partial monospace example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 40,
+          "line": 17,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 17,
+        },
+      },
+      "range": Array [
+        267,
+        307,
+      ],
+      "raw": "This is a \`\`part\`\`ial monospace example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 25,
+              "line": 20,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 20,
+            },
+          },
+          "range": Array [
+            317,
+            342,
+          ],
+          "raw": "This is a #mark# example.",
+          "type": "Str",
+          "value": "This is a mark example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 20,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 20,
+        },
+      },
+      "range": Array [
+        317,
+        342,
+      ],
+      "raw": "This is a #mark# example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 39,
+              "line": 23,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 23,
+            },
+          },
+          "range": Array [
+            362,
+            401,
+          ],
+          "raw": "This is a [.small]#small mark# example.",
+          "type": "Str",
+          "value": "This is a small mark example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 39,
+          "line": 23,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 23,
+        },
+      },
+      "range": Array [
+        362,
+        401,
+      ],
+      "raw": "This is a [.small]#small mark# example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 32,
+              "line": 26,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 26,
+            },
+          },
+          "range": Array [
+            419,
+            451,
+          ],
+          "raw": "This is a ^super^script example.",
+          "type": "Str",
+          "value": "This is a superscript example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 32,
+          "line": 26,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 26,
+        },
+      },
+      "range": Array [
+        419,
+        451,
+      ],
+      "raw": "This is a ^super^script example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 29,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 29,
+            },
+          },
+          "range": Array [
+            467,
+            497,
+          ],
+          "raw": "This is a ~sub~script example.",
+          "type": "Str",
+          "value": "This is a subscript example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 29,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 29,
+        },
+      },
+      "range": Array [
+        467,
+        497,
+      ],
+      "raw": "This is a ~sub~script example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 36,
+              "line": 32,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 32,
+            },
+          },
+          "range": Array [
+            515,
+            551,
+          ],
+          "raw": "This is a \\"\`double quotes\`\\" example.",
+          "type": "Str",
+          "value": "This is a “double quotes” example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 36,
+          "line": 32,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 32,
+        },
+      },
+      "range": Array [
+        515,
+        551,
+      ],
+      "raw": "This is a \\"\`double quotes\`\\" example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 36,
+              "line": 35,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 35,
+            },
+          },
+          "range": Array [
+            569,
+            605,
+          ],
+          "raw": "This is a '\`single quotes\`' example.",
+          "type": "Str",
+          "value": "This is a ‘single quotes’ example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 36,
+          "line": 35,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 35,
+        },
+      },
+      "range": Array [
+        569,
+        605,
+      ],
+      "raw": "This is a '\`single quotes\`' example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 33,
+              "line": 38,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 38,
+            },
+          },
+          "range": Array [
+            621,
+            654,
+          ],
+          "raw": "This is an apostrophe\`'s example.",
+          "type": "Str",
+          "value": "This is an apostrophe’s example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 33,
+          "line": 38,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 38,
+        },
+      },
+      "range": Array [
+        621,
+        654,
+      ],
+      "raw": "This is an apostrophe\`'s example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 58,
+              "line": 41,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 41,
+            },
+          },
+          "range": Array [
+            687,
+            745,
+          ],
+          "raw": "\`*_monospace bold italic phrase_*\` and le\`\`**__tt__**\`\`ers",
+          "type": "Str",
+          "value": "monospace bold italic phrase and letters",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 58,
+          "line": 41,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 41,
+        },
+      },
+      "range": Array [
+        687,
+        745,
+      ],
+      "raw": "\`*_monospace bold italic phrase_*\` and le\`\`**__tt__**\`\`ers",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 58,
+      "line": 41,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    745,
+  ],
+  "raw": "// emphasis
+This is an _emphasis_ example.
+
+// partial emphasis
+This is a __part__ial emphasis example.
+
+// strong
+This is a *strong* example.
+
+// partial strong
+This is a **part**ial strong example.
+
+// monospace
+This is a \`monospace\` example.
+
+// partial monospace
+This is a \`\`part\`\`ial monospace example.
+
+// mark
+This is a #mark# example.
+
+// mark with role
+This is a [.small]#small mark# example.
+
+// .superscript
+This is a ^super^script example.
+
+// .subscript
+This is a ~sub~script example.
+
+// double quote
+This is a \\"\`double quotes\`\\" example.
+
+// single quote
+This is a '\`single quotes\`' example.
+
+// apostrophe
+This is an apostrophe\`'s example.
+
+// mixed monospace bold italic
+\`*_monospace bold italic phrase_*\` and le\`\`**__tt__**\`\`ers",
+  "type": "Document",
+}
+`;
+
+exports[`listing 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        47,
+        60,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 9,
+          "line": 12,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        117,
+        126,
+      ],
+      "raw": "// source",
+      "type": "Comment",
+      "value": "source",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 22,
+          "line": 18,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 18,
+        },
+      },
+      "range": Array [
+        172,
+        194,
+      ],
+      "raw": "// source with comment",
+      "type": "Comment",
+      "value": "source with comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 10,
+          "line": 21,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 21,
+        },
+      },
+      "range": Array [
+        212,
+        222,
+      ],
+      "raw": "// comment",
+      "type": "Comment",
+      "value": "comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 26,
+          "line": 3,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 3,
+        },
+      },
+      "range": Array [
+        14,
+        40,
+      ],
+      "raw": "echo \\"This is an example.\\"",
+      "type": "CodeBlock",
+      "value": "echo \\"This is an example.\\"",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 37,
+          "line": 9,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 9,
+        },
+      },
+      "range": Array [
+        73,
+        110,
+      ],
+      "raw": "echo \\"This is an example with title.\\"",
+      "title": "title",
+      "type": "CodeBlock",
+      "value": "echo \\"This is an example with title.\\"",
+    },
+    Object {
+      "lang": "ruby",
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 15,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 15,
+        },
+      },
+      "range": Array [
+        146,
+        165,
+      ],
+      "raw": "puts 'Hello world!'",
+      "type": "CodeBlock",
+      "value": "puts 'Hello world!'",
+    },
+    Object {
+      "lang": "js",
+      "loc": Object {
+        "end": Object {
+          "column": 27,
+          "line": 22,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 21,
+        },
+      },
+      "range": Array [
+        212,
+        250,
+      ],
+      "raw": "// comment
+console.log(\\"Hello world!\\")",
+      "type": "CodeBlock",
+      "value": "// comment
+console.log(\\"Hello world!\\")",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 27,
+      "line": 22,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    255,
+  ],
+  "raw": "// basic
+----
+echo \\"This is an example.\\"
+----
+
+// with title
+.title
+----
+echo \\"This is an example with title.\\"
+----
+
+// source
+[source,ruby]
+----
+puts 'Hello world!'
+----
+
+// source with comment
+[source,js]
+----
+// comment
+console.log(\\"Hello world!\\")
+----",
+  "type": "Document",
+}
+`;
+
+exports[`literal 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        40,
+        53,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 12,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        103,
+        118,
+      ],
+      "raw": "// style syntax",
+      "type": "Comment",
+      "value": "style syntax",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 19,
+              "line": 3,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 3,
+            },
+          },
+          "range": Array [
+            14,
+            33,
+          ],
+          "raw": "This is an example.",
+          "type": "Str",
+          "value": "This is an example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 3,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 3,
+        },
+      },
+      "range": Array [
+        14,
+        33,
+      ],
+      "raw": "This is an example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 9,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 9,
+            },
+          },
+          "range": Array [
+            66,
+            96,
+          ],
+          "raw": "This is an example with title.",
+          "type": "Str",
+          "value": "This is an example with title.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 9,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 9,
+        },
+      },
+      "range": Array [
+        66,
+        96,
+      ],
+      "raw": "This is an example with title.",
+      "title": "title",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 32,
+              "line": 16,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 14,
+            },
+          },
+          "range": Array [
+            129,
+            251,
+          ],
+          "raw": "error: 1954 Forbidden search
+absolutely fatal: operation lost in the dodecahedron of doom
+Would you like to try again? y/n",
+          "type": "Str",
+          "value": "error: 1954 Forbidden search
+absolutely fatal: operation lost in the dodecahedron of doom
+Would you like to try again? y/n",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 32,
+          "line": 16,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 14,
+        },
+      },
+      "range": Array [
+        129,
+        251,
+      ],
+      "raw": "error: 1954 Forbidden search
+absolutely fatal: operation lost in the dodecahedron of doom
+Would you like to try again? y/n",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 32,
+      "line": 16,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    251,
+  ],
+  "raw": "// basic
+....
+This is an example.
+....
+
+// with title
+.title
+....
+This is an example with title.
+....
+
+// style syntax
+[literal]
+error: 1954 Forbidden search
+absolutely fatal: operation lost in the dodecahedron of doom
+Would you like to try again? y/n",
+  "type": "Document",
+}
+`;
+
+exports[`open 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        36,
+        49,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 11,
+          "line": 12,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        95,
+        106,
+      ],
+      "raw": "// abstract",
+      "type": "Comment",
+      "value": "abstract",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 9,
+          "line": 18,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 18,
+        },
+      },
+      "range": Array [
+        166,
+        175,
+      ],
+      "raw": "// source",
+      "type": "Comment",
+      "value": "source",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 13,
+              "line": 6,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 6,
+            },
+          },
+          "range": Array [
+            36,
+            49,
+          ],
+          "raw": "// with title",
+          "type": "Comment",
+          "value": "with title",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 19,
+                  "line": 3,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 3,
+                },
+              },
+              "range": Array [
+                12,
+                31,
+              ],
+              "raw": "This is an example.",
+              "type": "Str",
+              "value": "This is an example.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 19,
+              "line": 3,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 3,
+            },
+          },
+          "range": Array [
+            12,
+            31,
+          ],
+          "raw": "This is an example.",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 3,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        36,
+        31,
+      ],
+      "raw": "",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 11,
+              "line": 12,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 12,
+            },
+          },
+          "range": Array [
+            95,
+            106,
+          ],
+          "raw": "// abstract",
+          "type": "Comment",
+          "value": "abstract",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 30,
+                  "line": 9,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 9,
+                },
+              },
+              "range": Array [
+                60,
+                90,
+              ],
+              "raw": "This is an example with title.",
+              "type": "Str",
+              "value": "This is an example with title.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 9,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 9,
+            },
+          },
+          "range": Array [
+            60,
+            90,
+          ],
+          "raw": "This is an example with title.",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 9,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        95,
+        90,
+      ],
+      "raw": "",
+      "title": "title",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 9,
+              "line": 18,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 18,
+            },
+          },
+          "range": Array [
+            166,
+            175,
+          ],
+          "raw": "// source",
+          "type": "Comment",
+          "value": "source",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 40,
+                  "line": 15,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 15,
+                },
+              },
+              "range": Array [
+                121,
+                161,
+              ],
+              "raw": "This is an abstract quote block example.",
+              "type": "Str",
+              "value": "This is an abstract quote block example.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 40,
+              "line": 15,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 15,
+            },
+          },
+          "range": Array [
+            121,
+            161,
+          ],
+          "raw": "This is an abstract quote block example.",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 40,
+          "line": 15,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 18,
+        },
+      },
+      "range": Array [
+        166,
+        161,
+      ],
+      "raw": "",
+      "type": "Paragraph",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 23,
+          "line": 21,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 21,
+        },
+      },
+      "range": Array [
+        188,
+        211,
+      ],
+      "raw": "printf(\\"Hello world!\\");",
+      "type": "CodeBlock",
+      "value": "printf(\\"Hello world!\\");",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 23,
+      "line": 21,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    214,
+  ],
+  "raw": "// basic
+--
+This is an example.
+--
+
+// with title
+.title
+--
+This is an example with title.
+--
+
+// abstract
+[abstract]
+--
+This is an abstract quote block example.
+--
+
+// source
+[source]
+--
+printf(\\"Hello world!\\");
+--",
+  "type": "Document",
+}
+`;
+
+exports[`paragraph 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 17,
+          "line": 2,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        2,
+        19,
+      ],
+      "raw": "// inline comment",
+      "type": "Comment",
+      "value": "inline comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 20,
+          "line": 5,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 5,
+        },
+      },
+      "range": Array [
+        23,
+        43,
+      ],
+      "raw": "// paragraph comment",
+      "type": "Comment",
+      "value": "paragraph comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        47,
+        60,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 1,
+              "line": 6,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 6,
+            },
+          },
+          "range": Array [
+            44,
+            45,
+          ],
+          "raw": "C",
+          "type": "Str",
+          "value": "C",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 1,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        44,
+        45,
+      ],
+      "raw": "C",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 1,
+              "line": 10,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 10,
+            },
+          },
+          "range": Array [
+            68,
+            69,
+          ],
+          "raw": "D",
+          "type": "Str",
+          "value": "D",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 1,
+          "line": 10,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 10,
+        },
+      },
+      "range": Array [
+        68,
+        69,
+      ],
+      "raw": "D",
+      "title": "title",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 1,
+      "line": 10,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 2,
+    },
+  },
+  "range": Array [
+    0,
+    69,
+  ],
+  "raw": "A
+// inline comment
+B
+
+// paragraph comment
+C
+
+// with title
+.title
+D",
+  "type": "Document",
+}
+`;
+
+exports[`passthrough 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        47,
+        62,
+      ],
+      "raw": "// style syntax",
+      "type": "Comment",
+      "value": "style syntax",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 9,
+          "line": 10,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 10,
+        },
+      },
+      "range": Array [
+        110,
+        119,
+      ],
+      "raw": "// inline",
+      "type": "Comment",
+      "value": "inline",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 26,
+              "line": 3,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 3,
+            },
+          },
+          "range": Array [
+            14,
+            40,
+          ],
+          "raw": "<p>This is an example.</p>",
+          "type": "Str",
+          "value": "This is an example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 26,
+          "line": 3,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 3,
+        },
+      },
+      "range": Array [
+        14,
+        40,
+      ],
+      "raw": "<p>This is an example.</p>",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 38,
+              "line": 8,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 8,
+            },
+          },
+          "range": Array [
+            70,
+            108,
+          ],
+          "raw": "<p>This is a style syntax example.</p>",
+          "type": "Str",
+          "value": "This is a style syntax example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 38,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        70,
+        108,
+      ],
+      "raw": "<p>This is a style syntax example.</p>",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 40,
+              "line": 11,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 11,
+            },
+          },
+          "range": Array [
+            120,
+            160,
+          ],
+          "raw": "pass:[<p>This is an inline example.</p>]",
+          "type": "Str",
+          "value": "This is an inline example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 40,
+          "line": 11,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 11,
+        },
+      },
+      "range": Array [
+        120,
+        160,
+      ],
+      "raw": "pass:[<p>This is an inline example.</p>]",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 40,
+      "line": 11,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    160,
+  ],
+  "raw": "// basic
+++++
+<p>This is an example.</p>
+++++
+
+// style syntax
+[pass]
+<p>This is a style syntax example.</p>
+
+// inline
+pass:[<p>This is an inline example.</p>]",
+  "type": "Document",
+}
+`;
+
+exports[`quote 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 12,
+          "line": 11,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 11,
+        },
+      },
+      "range": Array [
+        336,
+        348,
+      ],
+      "raw": "// paragraph",
+      "type": "Comment",
+      "value": "paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 12,
+              "line": 11,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 11,
+            },
+          },
+          "range": Array [
+            336,
+            348,
+          ],
+          "raw": "// paragraph",
+          "type": "Comment",
+          "value": "paragraph",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 90,
+                  "line": 4,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 4,
+                },
+              },
+              "range": Array [
+                55,
+                145,
+              ],
+              "raw": "Dennis: Come and see the violence inherent in the system. Help! Help! I'm being repressed!",
+              "type": "Str",
+              "value": "Dennis: Come and see the violence inherent in the system. Help! Help! I’m being repressed!",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 90,
+              "line": 4,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 4,
+            },
+          },
+          "range": Array [
+            55,
+            145,
+          ],
+          "raw": "Dennis: Come and see the violence inherent in the system. Help! Help! I'm being repressed!",
+          "type": "Paragraph",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 28,
+                  "line": 6,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 6,
+                },
+              },
+              "range": Array [
+                147,
+                175,
+              ],
+              "raw": "King Arthur: Bloody peasant!",
+              "type": "Str",
+              "value": "King Arthur: Bloody peasant!",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 28,
+              "line": 6,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 6,
+            },
+          },
+          "range": Array [
+            147,
+            175,
+          ],
+          "raw": "King Arthur: Bloody peasant!",
+          "type": "Paragraph",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 152,
+                  "line": 8,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 8,
+                },
+              },
+              "range": Array [
+                177,
+                329,
+              ],
+              "raw": "Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That's what I'm on about! Did you see him repressing me? You saw him, Didn't you?",
+              "type": "Str",
+              "value": "Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That’s what I’m on about! Did you see him repressing me? You saw him, Didn’t you?",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 152,
+              "line": 8,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 8,
+            },
+          },
+          "range": Array [
+            177,
+            329,
+          ],
+          "raw": "Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That's what I'm on about! Did you see him repressing me? You saw him, Didn't you?",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 152,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 11,
+        },
+      },
+      "range": Array [
+        336,
+        329,
+      ],
+      "raw": "",
+      "type": "BlockQuote",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 66,
+                  "line": 13,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 12,
+                },
+              },
+              "range": Array [
+                350,
+                480,
+              ],
+              "raw": "I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical.",
+              "type": "Str",
+              "value": "I hold it that a little rebellion now and then is a good thing, and as necessary in the political world as storms in the physical.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 66,
+              "line": 13,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 12,
+            },
+          },
+          "range": Array [
+            350,
+            480,
+          ],
+          "raw": "I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical.",
+          "type": "Paragraph",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 66,
+          "line": 13,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        350,
+        480,
+      ],
+      "raw": "I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical.",
+      "type": "BlockQuote",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 66,
+      "line": 13,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    540,
+  ],
+  "raw": "// basic
+[quote, Monty Python and the Holy Grail]
+____
+Dennis: Come and see the violence inherent in the system. Help! Help! I'm being repressed!
+
+King Arthur: Bloody peasant!
+
+Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That's what I'm on about! Did you see him repressing me? You saw him, Didn't you?
+____
+
+// paragraph
+\\"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical.\\"
+-- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11",
+  "type": "Document",
+}
+`;
+
+exports[`section 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 7,
+              "line": 2,
+            },
+            "start": Object {
+              "column": 2,
+              "line": 2,
+            },
+          },
+          "range": Array [
+            11,
+            16,
+          ],
+          "raw": "Title",
+          "type": "Str",
+          "value": "Title",
+        },
+      ],
+      "depth": 1,
+      "loc": Object {
+        "end": Object {
+          "column": 7,
+          "line": 2,
+        },
+        "start": Object {
+          "column": 2,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        11,
+        16,
+      ],
+      "raw": "Title",
+      "type": "Header",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 17,
+          "line": 10,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 10,
+        },
+      },
+      "range": Array [
+        82,
+        99,
+      ],
+      "raw": "// floating title",
+      "type": "Comment",
+      "value": "floating title",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 18,
+              "line": 4,
+            },
+            "start": Object {
+              "column": 3,
+              "line": 4,
+            },
+          },
+          "range": Array [
+            21,
+            36,
+          ],
+          "raw": "Level 1 Section",
+          "type": "Str",
+          "value": "Level 1 Section",
+        },
+      ],
+      "depth": 2,
+      "loc": Object {
+        "end": Object {
+          "column": 18,
+          "line": 4,
+        },
+        "start": Object {
+          "column": 3,
+          "line": 4,
+        },
+      },
+      "range": Array [
+        21,
+        36,
+      ],
+      "raw": "Level 1 Section",
+      "type": "Header",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 17,
+          "line": 10,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 10,
+        },
+      },
+      "range": Array [
+        82,
+        99,
+      ],
+      "raw": "// floating title",
+      "type": "Comment",
+      "value": "floating title",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 13,
+              "line": 6,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 6,
+            },
+          },
+          "range": Array [
+            38,
+            51,
+          ],
+          "raw": "Hello, world!",
+          "type": "Str",
+          "value": "Hello, world!",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        38,
+        51,
+      ],
+      "raw": "Hello, world!",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 27,
+              "line": 8,
+            },
+            "start": Object {
+              "column": 4,
+              "line": 8,
+            },
+          },
+          "range": Array [
+            57,
+            80,
+          ],
+          "raw": "Level 2 Section's title",
+          "type": "Str",
+          "value": "Level 2 Section’s title",
+        },
+      ],
+      "depth": 3,
+      "loc": Object {
+        "end": Object {
+          "column": 27,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 4,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        57,
+        80,
+      ],
+      "raw": "Level 2 Section's title",
+      "type": "Header",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 17,
+          "line": 10,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 10,
+        },
+      },
+      "range": Array [
+        82,
+        99,
+      ],
+      "raw": "// floating title",
+      "type": "Comment",
+      "value": "floating title",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 19,
+              "line": 12,
+            },
+            "start": Object {
+              "column": 3,
+              "line": 12,
+            },
+          },
+          "range": Array [
+            114,
+            130,
+          ],
+          "raw": "Discrete Heading",
+          "type": "Str",
+          "value": "Discrete Heading",
+        },
+      ],
+      "depth": 2,
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 12,
+        },
+        "start": Object {
+          "column": 3,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        114,
+        130,
+      ],
+      "raw": "Discrete Heading",
+      "type": "Header",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 19,
+      "line": 12,
+    },
+    "start": Object {
+      "column": 2,
+      "line": 2,
+    },
+  },
+  "range": Array [
+    0,
+    130,
+  ],
+  "raw": "// basic
+= Title
+
+== Level 1 Section
+
+Hello, world!
+
+=== Level 2 Section's title
+
+// floating title
+[discrete]
+== Discrete Heading",
+  "type": "Document",
+}
+`;
+
+exports[`sidebar 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 15,
+          "line": 16,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 16,
+        },
+      },
+      "range": Array [
+        298,
+        313,
+      ],
+      "raw": "// style syntax",
+      "type": "Comment",
+      "value": "style syntax",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 15,
+              "line": 16,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 16,
+            },
+          },
+          "range": Array [
+            298,
+            313,
+          ],
+          "raw": "// style syntax",
+          "type": "Comment",
+          "value": "style syntax",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 30,
+                  "line": 5,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 4,
+                },
+              },
+              "range": Array [
+                21,
+                116,
+              ],
+              "raw": "Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.",
+              "type": "Str",
+              "value": "Sidebars are used to visually separate auxiliary bits of content that supplement the main text.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 5,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 4,
+            },
+          },
+          "range": Array [
+            21,
+            116,
+          ],
+          "raw": "Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.",
+          "type": "Paragraph",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 42,
+                  "line": 7,
+                },
+                "start": Object {
+                  "column": 5,
+                  "line": 7,
+                },
+              },
+              "range": Array [
+                123,
+                160,
+              ],
+              "raw": "They can contain any type of content.",
+              "type": "Str",
+              "value": "They can contain any type of content.",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 42,
+              "line": 7,
+            },
+            "start": Object {
+              "column": 5,
+              "line": 7,
+            },
+          },
+          "range": Array [
+            123,
+            160,
+          ],
+          "raw": "They can contain any type of content.",
+          "type": "Paragraph",
+        },
+        Object {
+          "lang": "js",
+          "loc": Object {
+            "end": Object {
+              "column": 75,
+              "line": 12,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 12,
+            },
+          },
+          "range": Array [
+            211,
+            286,
+          ],
+          "raw": "const { expect, expectCalledWith, heredoc } = require('../test/test-utils')",
+          "title": "Source code block in a sidebar",
+          "type": "CodeBlock",
+          "value": "const { expect, expectCalledWith, heredoc } = require('../test/test-utils')",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 75,
+          "line": 12,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 16,
+        },
+      },
+      "range": Array [
+        298,
+        286,
+      ],
+      "raw": "",
+      "title": "title",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 30,
+              "line": 19,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 18,
+            },
+          },
+          "range": Array [
+            324,
+            419,
+          ],
+          "raw": "Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.",
+          "type": "Str",
+          "value": "Sidebars are used to visually separate auxiliary bits of content that supplement the main text.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 30,
+          "line": 19,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 18,
+        },
+      },
+      "range": Array [
+        324,
+        419,
+      ],
+      "raw": "Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 30,
+      "line": 19,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    419,
+  ],
+  "raw": "// basic
+.title
+****
+Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.
+
+TIP: They can contain any type of content.
+
+.Source code block in a sidebar
+[source,js]
+----
+const { expect, expectCalledWith, heredoc } = require('../test/test-utils')
+----
+****
+
+// style syntax
+[sidebar]
+Sidebars are used to visually separate auxiliary bits of content
+that supplement the main text.",
+  "type": "Document",
+}
+`;
+
+exports[`stem 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 12,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        12,
+      ],
+      "raw": "// asciimath",
+      "type": "Comment",
+      "value": "asciimath",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 12,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        60,
+        72,
+      ],
+      "raw": "// latexmath",
+      "type": "Comment",
+      "value": "latexmath",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 15,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 15,
+        },
+      },
+      "range": Array [
+        149,
+        162,
+      ],
+      "raw": "// with title",
+      "type": "Comment",
+      "value": "with title",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 9,
+          "line": 23,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 23,
+        },
+      },
+      "range": Array [
+        207,
+        216,
+      ],
+      "raw": "// inline",
+      "type": "Comment",
+      "value": "inline",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 26,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 26,
+        },
+      },
+      "range": Array [
+        261,
+        280,
+      ],
+      "raw": "// inline asciimath",
+      "type": "Comment",
+      "value": "inline asciimath",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 29,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 29,
+        },
+      },
+      "range": Array [
+        340,
+        359,
+      ],
+      "raw": "// inline latexmath",
+      "type": "Comment",
+      "value": "inline latexmath",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 11,
+          "line": 5,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 5,
+        },
+      },
+      "range": Array [
+        42,
+        53,
+      ],
+      "raw": "sqrt(4) = 2",
+      "type": "CodeBlock",
+      "value": "sqrt(4) = 2",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 40,
+          "line": 12,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 12,
+        },
+      },
+      "range": Array [
+        102,
+        142,
+      ],
+      "raw": "C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon",
+      "type": "CodeBlock",
+      "value": "C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 11,
+          "line": 20,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 20,
+        },
+      },
+      "range": Array [
+        189,
+        200,
+      ],
+      "raw": "sqrt(4) = 2",
+      "title": "title",
+      "type": "CodeBlock",
+      "value": "sqrt(4) = 2",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 42,
+              "line": 24,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 24,
+            },
+          },
+          "range": Array [
+            217,
+            259,
+          ],
+          "raw": "This is inline stem:[sqrt(4) = 2] example.",
+          "type": "Str",
+          "value": "This is inline \\\\$sqrt(4) = 2\\\\$ example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 42,
+          "line": 24,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 24,
+        },
+      },
+      "range": Array [
+        217,
+        259,
+      ],
+      "raw": "This is inline stem:[sqrt(4) = 2] example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 57,
+              "line": 27,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 27,
+            },
+          },
+          "range": Array [
+            281,
+            338,
+          ],
+          "raw": "This is inline asciimath asciimath:[sqrt(4) = 2] example.",
+          "type": "Str",
+          "value": "This is inline asciimath \\\\$sqrt(4) = 2\\\\$ example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 57,
+          "line": 27,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 27,
+        },
+      },
+      "range": Array [
+        281,
+        338,
+      ],
+      "raw": "This is inline asciimath asciimath:[sqrt(4) = 2] example.",
+      "type": "Paragraph",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 86,
+              "line": 30,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 30,
+            },
+          },
+          "range": Array [
+            360,
+            446,
+          ],
+          "raw": "This is inline latexmath latexmath:[C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon] example.",
+          "type": "Str",
+          "value": "This is inline latexmath \\\\(C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon\\\\) example.",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 86,
+          "line": 30,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 30,
+        },
+      },
+      "range": Array [
+        360,
+        446,
+      ],
+      "raw": "This is inline latexmath latexmath:[C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon] example.",
+      "type": "Paragraph",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 86,
+      "line": 30,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    446,
+  ],
+  "raw": "// asciimath
+:stem: asciimath
+[stem]
+++++
+sqrt(4) = 2
+++++
+
+// latexmath
+:stem: latexmath
+[stem]
+++++
+C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon
+++++
+
+// with title
+:stem:
+[stem]
+.title
+++++
+sqrt(4) = 2
+++++
+
+// inline
+This is inline stem:[sqrt(4) = 2] example.
+
+// inline asciimath
+This is inline asciimath asciimath:[sqrt(4) = 2] example.
+
+// inline latexmath
+This is inline latexmath latexmath:[C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon] example.",
+  "type": "Document",
+}
+`;
+
+exports[`table 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        8,
+      ],
+      "raw": "// basic",
+      "type": "Comment",
+      "value": "basic",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 27,
+          "line": 8,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 8,
+        },
+      },
+      "range": Array [
+        37,
+        64,
+      ],
+      "raw": "// with identical cell text",
+      "type": "Comment",
+      "value": "with identical cell text",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 16,
+          "line": 17,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 17,
+        },
+      },
+      "range": Array [
+        157,
+        173,
+      ],
+      "raw": "// complex table",
+      "type": "Comment",
+      "value": "complex table",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 22,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 22,
+        },
+      },
+      "range": Array [
+        194,
+        202,
+      ],
+      "raw": "// empty",
+      "type": "Comment",
+      "value": "empty",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 26,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 26,
+        },
+      },
+      "range": Array [
+        214,
+        239,
+      ],
+      "raw": "// with header and footer",
+      "type": "Comment",
+      "value": "with header and footer",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 2,
+                      "line": 4,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 4,
+                    },
+                  },
+                  "range": Array [
+                    22,
+                    23,
+                  ],
+                  "raw": "A",
+                  "type": "Str",
+                  "value": "A",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 2,
+                  "line": 4,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 4,
+                },
+              },
+              "range": Array [
+                22,
+                23,
+              ],
+              "raw": "A",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 4,
+                      "line": 4,
+                    },
+                    "start": Object {
+                      "column": 3,
+                      "line": 4,
+                    },
+                  },
+                  "range": Array [
+                    24,
+                    25,
+                  ],
+                  "raw": "B",
+                  "type": "Str",
+                  "value": "B",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 4,
+                  "line": 4,
+                },
+                "start": Object {
+                  "column": 3,
+                  "line": 4,
+                },
+              },
+              "range": Array [
+                24,
+                25,
+              ],
+              "raw": "B",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 4,
+              "line": 4,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 4,
+            },
+          },
+          "range": Array [
+            22,
+            25,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 2,
+                      "line": 5,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 5,
+                    },
+                  },
+                  "range": Array [
+                    27,
+                    28,
+                  ],
+                  "raw": "C",
+                  "type": "Str",
+                  "value": "C",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 2,
+                  "line": 5,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 5,
+                },
+              },
+              "range": Array [
+                27,
+                28,
+              ],
+              "raw": "C",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 4,
+                      "line": 5,
+                    },
+                    "start": Object {
+                      "column": 3,
+                      "line": 5,
+                    },
+                  },
+                  "range": Array [
+                    29,
+                    30,
+                  ],
+                  "raw": "D",
+                  "type": "Str",
+                  "value": "D",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 4,
+                  "line": 5,
+                },
+                "start": Object {
+                  "column": 3,
+                  "line": 5,
+                },
+              },
+              "range": Array [
+                29,
+                30,
+              ],
+              "raw": "D",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 4,
+              "line": 5,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 5,
+            },
+          },
+          "range": Array [
+            27,
+            30,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 5,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 4,
+        },
+      },
+      "range": Array [
+        22,
+        30,
+      ],
+      "raw": "",
+      "type": "Table",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 23,
+                      "line": 11,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 11,
+                    },
+                  },
+                  "range": Array [
+                    72,
+                    94,
+                  ],
+                  "raw": "Haystack with needles.",
+                  "type": "Str",
+                  "value": "Haystack with needles.",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 23,
+                  "line": 11,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 11,
+                },
+              },
+              "range": Array [
+                72,
+                94,
+              ],
+              "raw": "Haystack with needles.",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 21,
+                      "line": 11,
+                    },
+                    "start": Object {
+                      "column": 15,
+                      "line": 11,
+                    },
+                  },
+                  "range": Array [
+                    86,
+                    92,
+                  ],
+                  "raw": "needle",
+                  "type": "Str",
+                  "value": "needle",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 21,
+                  "line": 11,
+                },
+                "start": Object {
+                  "column": 15,
+                  "line": 11,
+                },
+              },
+              "range": Array [
+                86,
+                92,
+              ],
+              "raw": "needle",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 21,
+              "line": 11,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 11,
+            },
+          },
+          "range": Array [
+            72,
+            92,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 38,
+                      "line": 13,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 13,
+                    },
+                  },
+                  "range": Array [
+                    105,
+                    142,
+                  ],
+                  "raw": "Chocolate in someone's peanut butter.",
+                  "type": "Str",
+                  "value": "Chocolate in someone’s peanut butter.",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 38,
+                  "line": 13,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 13,
+                },
+              },
+              "range": Array [
+                105,
+                142,
+              ],
+              "raw": "Chocolate in someone's peanut butter.",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 7,
+                      "line": 14,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 14,
+                    },
+                  },
+                  "range": Array [
+                    144,
+                    150,
+                  ],
+                  "raw": "peanut",
+                  "type": "Str",
+                  "value": "peanut",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 7,
+                  "line": 14,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 14,
+                },
+              },
+              "range": Array [
+                144,
+                150,
+              ],
+              "raw": "peanut",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 7,
+              "line": 14,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 13,
+            },
+          },
+          "range": Array [
+            105,
+            150,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 7,
+          "line": 14,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 11,
+        },
+      },
+      "range": Array [
+        72,
+        150,
+      ],
+      "raw": "",
+      "type": "Table",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 8,
+                      "line": 22,
+                    },
+                    "start": Object {
+                      "column": 0,
+                      "line": 22,
+                    },
+                  },
+                  "range": Array [
+                    194,
+                    202,
+                  ],
+                  "raw": "// empty",
+                  "type": "Comment",
+                  "value": "empty",
+                },
+                Object {
+                  "children": Array [
+                    Object {
+                      "loc": Object {
+                        "end": Object {
+                          "column": 8,
+                          "line": 22,
+                        },
+                        "start": Object {
+                          "column": 0,
+                          "line": 22,
+                        },
+                      },
+                      "range": Array [
+                        194,
+                        202,
+                      ],
+                      "raw": "// empty",
+                      "type": "Comment",
+                      "value": "empty",
+                    },
+                    Object {
+                      "children": Array [
+                        Object {
+                          "children": Array [
+                            Object {
+                              "loc": Object {
+                                "end": Object {
+                                  "column": 8,
+                                  "line": 19,
+                                },
+                                "start": Object {
+                                  "column": 4,
+                                  "line": 19,
+                                },
+                              },
+                              "range": Array [
+                                183,
+                                187,
+                              ],
+                              "raw": "text",
+                              "type": "Str",
+                              "value": "text",
+                            },
+                          ],
+                          "loc": Object {
+                            "end": Object {
+                              "column": 8,
+                              "line": 19,
+                            },
+                            "start": Object {
+                              "column": 4,
+                              "line": 19,
+                            },
+                          },
+                          "range": Array [
+                            183,
+                            187,
+                          ],
+                          "raw": "text",
+                          "type": "Paragraph",
+                        },
+                        Object {
+                          "loc": Object {
+                            "end": Object {
+                              "column": 8,
+                              "line": 22,
+                            },
+                            "start": Object {
+                              "column": 0,
+                              "line": 22,
+                            },
+                          },
+                          "range": Array [
+                            194,
+                            202,
+                          ],
+                          "raw": "// empty",
+                          "type": "Comment",
+                          "value": "empty",
+                        },
+                      ],
+                      "loc": Object {
+                        "end": Object {
+                          "column": 8,
+                          "line": 22,
+                        },
+                        "start": Object {
+                          "column": 4,
+                          "line": 19,
+                        },
+                      },
+                      "range": Array [
+                        183,
+                        202,
+                      ],
+                      "raw": "",
+                      "type": "ListItem",
+                    },
+                  ],
+                  "loc": Object {
+                    "end": Object {
+                      "column": 8,
+                      "line": 22,
+                    },
+                    "start": Object {
+                      "column": 0,
+                      "line": 22,
+                    },
+                  },
+                  "range": Array [
+                    194,
+                    202,
+                  ],
+                  "raw": "",
+                  "type": "List",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 8,
+                  "line": 19,
+                },
+                "start": Object {
+                  "column": 2,
+                  "line": 19,
+                },
+              },
+              "range": Array [
+                181,
+                187,
+              ],
+              "raw": "* text",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 8,
+              "line": 19,
+            },
+            "start": Object {
+              "column": 2,
+              "line": 19,
+            },
+          },
+          "range": Array [
+            181,
+            187,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 8,
+          "line": 19,
+        },
+        "start": Object {
+          "column": 2,
+          "line": 19,
+        },
+      },
+      "range": Array [
+        181,
+        187,
+      ],
+      "raw": "",
+      "type": "Table",
+    },
+    Object {
+      "children": Array [
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 8,
+                      "line": 29,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 29,
+                    },
+                  },
+                  "range": Array [
+                    263,
+                    270,
+                  ],
+                  "raw": "HeaderA",
+                  "type": "Str",
+                  "value": "HeaderA",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 8,
+                  "line": 29,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 29,
+                },
+              },
+              "range": Array [
+                263,
+                270,
+              ],
+              "raw": "HeaderA",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 16,
+                      "line": 29,
+                    },
+                    "start": Object {
+                      "column": 9,
+                      "line": 29,
+                    },
+                  },
+                  "range": Array [
+                    271,
+                    278,
+                  ],
+                  "raw": "HeaderB",
+                  "type": "Str",
+                  "value": "HeaderB",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 16,
+                  "line": 29,
+                },
+                "start": Object {
+                  "column": 9,
+                  "line": 29,
+                },
+              },
+              "range": Array [
+                271,
+                278,
+              ],
+              "raw": "HeaderB",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 16,
+              "line": 29,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 29,
+            },
+          },
+          "range": Array [
+            263,
+            278,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 3,
+                      "line": 31,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 31,
+                    },
+                  },
+                  "range": Array [
+                    281,
+                    283,
+                  ],
+                  "raw": "A1",
+                  "type": "Str",
+                  "value": "A1",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 3,
+                  "line": 31,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 31,
+                },
+              },
+              "range": Array [
+                281,
+                283,
+              ],
+              "raw": "A1",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 3,
+                      "line": 32,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 32,
+                    },
+                  },
+                  "range": Array [
+                    285,
+                    287,
+                  ],
+                  "raw": "B1",
+                  "type": "Str",
+                  "value": "B1",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 3,
+                  "line": 32,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 32,
+                },
+              },
+              "range": Array [
+                285,
+                287,
+              ],
+              "raw": "B1",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 3,
+              "line": 32,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 31,
+            },
+          },
+          "range": Array [
+            281,
+            287,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 3,
+                      "line": 34,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 34,
+                    },
+                  },
+                  "range": Array [
+                    290,
+                    292,
+                  ],
+                  "raw": "A2",
+                  "type": "Str",
+                  "value": "A2",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 3,
+                  "line": 34,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 34,
+                },
+              },
+              "range": Array [
+                290,
+                292,
+              ],
+              "raw": "A2",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 3,
+                      "line": 35,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 35,
+                    },
+                  },
+                  "range": Array [
+                    294,
+                    296,
+                  ],
+                  "raw": "B2",
+                  "type": "Str",
+                  "value": "B2",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 3,
+                  "line": 35,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 35,
+                },
+              },
+              "range": Array [
+                294,
+                296,
+              ],
+              "raw": "B2",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 3,
+              "line": 35,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 34,
+            },
+          },
+          "range": Array [
+            290,
+            296,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 8,
+                      "line": 38,
+                    },
+                    "start": Object {
+                      "column": 1,
+                      "line": 38,
+                    },
+                  },
+                  "range": Array [
+                    302,
+                    309,
+                  ],
+                  "raw": "FooterA",
+                  "type": "Str",
+                  "value": "FooterA",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 8,
+                  "line": 38,
+                },
+                "start": Object {
+                  "column": 1,
+                  "line": 38,
+                },
+              },
+              "range": Array [
+                302,
+                309,
+              ],
+              "raw": "FooterA",
+              "type": "TableCell",
+            },
+            Object {
+              "children": Array [
+                Object {
+                  "loc": Object {
+                    "end": Object {
+                      "column": 16,
+                      "line": 38,
+                    },
+                    "start": Object {
+                      "column": 9,
+                      "line": 38,
+                    },
+                  },
+                  "range": Array [
+                    310,
+                    317,
+                  ],
+                  "raw": "FooterB",
+                  "type": "Str",
+                  "value": "FooterB",
+                },
+              ],
+              "loc": Object {
+                "end": Object {
+                  "column": 16,
+                  "line": 38,
+                },
+                "start": Object {
+                  "column": 9,
+                  "line": 38,
+                },
+              },
+              "range": Array [
+                310,
+                317,
+              ],
+              "raw": "FooterB",
+              "type": "TableCell",
+            },
+          ],
+          "loc": Object {
+            "end": Object {
+              "column": 16,
+              "line": 38,
+            },
+            "start": Object {
+              "column": 1,
+              "line": 38,
+            },
+          },
+          "range": Array [
+            302,
+            317,
+          ],
+          "raw": "",
+          "type": "TableRow",
+        },
+      ],
+      "loc": Object {
+        "end": Object {
+          "column": 16,
+          "line": 38,
+        },
+        "start": Object {
+          "column": 1,
+          "line": 29,
+        },
+      },
+      "range": Array [
+        263,
+        317,
+      ],
+      "raw": "",
+      "type": "Table",
+    },
+  ],
+  "loc": Object {
+    "end": Object {
+      "column": 16,
+      "line": 38,
+    },
+    "start": Object {
+      "column": 0,
+      "line": 1,
+    },
+  },
+  "range": Array [
+    0,
+    322,
+  ],
+  "raw": "// basic
+.title
+|===
+|A|B
+|C|D
+|===
+
+// with identical cell text
+|===
+
+|Haystack with needles. |needle
+
+|Chocolate in someone's peanut butter.
+|peanut
+|===
+
+// complex table
+|===
+a|* text
+|===
+
+// empty
+|===
+|===
+
+// with header and footer
+[%header%footer]
+|===
+|HeaderA|HeaderB
+
+|A1
+|B1
+
+|A2
+|B2
+||
+
+|FooterA|FooterB
+|===",
+  "type": "Document",
+}
+`;

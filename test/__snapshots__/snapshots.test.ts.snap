@@ -148,6 +148,25 @@ Object {
       "type": "Header",
     },
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 69,
+          "line": 1,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 1,
+        },
+      },
+      "range": Array [
+        0,
+        69,
+      ],
+      "raw": "// NOTE: This is the article example from the AsciiDoc Python project",
+      "type": "Comment",
+      "value": "NOTE: This is the article example from the AsciiDoc Python project",
+    },
+    Object {
       "children": Array [
         Object {
           "loc": Object {
@@ -2209,6 +2228,44 @@ exports[`Snapshot testing Test Snapshot:code comment.adoc 1`] = `
 Object {
   "children": Array [
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 10,
+          "line": 5,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 5,
+        },
+      },
+      "range": Array [
+        68,
+        78,
+      ],
+      "raw": "// comment",
+      "type": "Comment",
+      "value": "comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 10,
+          "line": 7,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 7,
+        },
+      },
+      "range": Array [
+        90,
+        100,
+      ],
+      "raw": "// comment",
+      "type": "Comment",
+      "value": "comment",
+    },
+    Object {
       "children": Array [
         Object {
           "loc": Object {
@@ -2279,7 +2336,7 @@ var a = 1;
     },
     "start": Object {
       "column": 0,
-      "line": 1,
+      "line": 5,
     },
   },
   "range": Array [
@@ -2342,6 +2399,253 @@ Object {
       "type": "Header",
     },
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 2,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 2,
+        },
+      },
+      "range": Array [
+        19,
+        23,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 6,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 6,
+        },
+      },
+      "range": Array [
+        97,
+        101,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 13,
+          "line": 16,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 16,
+        },
+      },
+      "range": Array [
+        370,
+        383,
+      ],
+      "raw": "//:toc: macro",
+      "type": "Comment",
+      "value": ":toc: macro",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 19,
+          "line": 19,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 19,
+        },
+      },
+      "range": Array [
+        420,
+        439,
+      ],
+      "raw": "//:max-width: 800px",
+      "type": "Comment",
+      "value": ":max-width: 800px",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 16,
+          "line": 20,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 20,
+        },
+      },
+      "range": Array [
+        440,
+        456,
+      ],
+      "raw": "//:doctype: book",
+      "type": "Comment",
+      "value": ":doctype: book",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 12,
+          "line": 21,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 21,
+        },
+      },
+      "range": Array [
+        457,
+        469,
+      ],
+      "raw": "//:sectids!:",
+      "type": "Comment",
+      "value": ":sectids!:",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 85,
+          "line": 56,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 56,
+        },
+      },
+      "range": Array [
+        1665,
+        1750,
+      ],
+      "raw": "// separate two adjacent lists using a line comment (only the leading // is required)",
+      "type": "Comment",
+      "value": "separate two adjacent lists using a line comment (only the leading // is required)",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 132,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 132,
+        },
+      },
+      "range": Array [
+        3443,
+        3468,
+      ],
+      "raw": "// this is just a comment",
+      "type": "Comment",
+      "value": "this is just a comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 140,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 140,
+        },
+      },
+      "range": Array [
+        3528,
+        3532,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 144,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 144,
+        },
+      },
+      "range": Array [
+        3592,
+        3596,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 62,
+          "line": 167,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 167,
+        },
+      },
+      "range": Array [
+        3992,
+        4054,
+      ],
+      "raw": "// TODO: Use ifdef to show output according to current backend",
+      "type": "Comment",
+      "value": "TODO: Use ifdef to show output according to current backend",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 60,
+          "line": 231,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 231,
+        },
+      },
+      "range": Array [
+        5385,
+        5445,
+      ],
+      "raw": "// This attribute line will get reattached to the next block",
+      "type": "Comment",
+      "value": "This attribute line will get reattached to the next block",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 50,
+          "line": 232,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 232,
+        },
+      },
+      "range": Array [
+        5446,
+        5496,
+      ],
+      "raw": "// despite being followed by a trailing blank line",
+      "type": "Comment",
+      "value": "despite being followed by a trailing blank line",
+    },
+    Object {
       "children": Array [
         Object {
           "loc": Object {
@@ -2382,7 +2686,102 @@ Object {
       "type": "Header",
     },
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 85,
+          "line": 56,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 56,
+        },
+      },
+      "range": Array [
+        1665,
+        1750,
+      ],
+      "raw": "// separate two adjacent lists using a line comment (only the leading // is required)",
+      "type": "Comment",
+      "value": "separate two adjacent lists using a line comment (only the leading // is required)",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 132,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 132,
+        },
+      },
+      "range": Array [
+        3443,
+        3468,
+      ],
+      "raw": "// this is just a comment",
+      "type": "Comment",
+      "value": "this is just a comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 140,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 140,
+        },
+      },
+      "range": Array [
+        3528,
+        3532,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 144,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 144,
+        },
+      },
+      "range": Array [
+        3592,
+        3596,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
       "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 85,
+              "line": 56,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 56,
+            },
+          },
+          "range": Array [
+            1665,
+            1750,
+          ],
+          "raw": "// separate two adjacent lists using a line comment (only the leading // is required)",
+          "type": "Comment",
+          "value": "separate two adjacent lists using a line comment (only the leading // is required)",
+        },
         Object {
           "children": Array [
             Object {
@@ -2778,11 +3177,30 @@ Object {
               "raw": "to pass through +++<b>HTML</b>+++ directly, surround the text with triple plus",
               "type": "Paragraph",
             },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 85,
+                  "line": 56,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 56,
+                },
+              },
+              "range": Array [
+                1665,
+                1750,
+              ],
+              "raw": "// separate two adjacent lists using a line comment (only the leading // is required)",
+              "type": "Comment",
+              "value": "separate two adjacent lists using a line comment (only the leading // is required)",
+            },
           ],
           "loc": Object {
             "end": Object {
-              "column": 104,
-              "line": 53,
+              "column": 85,
+              "line": 56,
             },
             "start": Object {
               "column": 26,
@@ -2791,7 +3209,7 @@ Object {
           },
           "range": Array [
             1462,
-            1540,
+            1750,
           ],
           "raw": "",
           "type": "ListItem",
@@ -2799,17 +3217,17 @@ Object {
       ],
       "loc": Object {
         "end": Object {
-          "column": 104,
-          "line": 53,
+          "column": 85,
+          "line": 56,
         },
         "start": Object {
-          "column": 2,
-          "line": 47,
+          "column": 0,
+          "line": 56,
         },
       },
       "range": Array [
-        1065,
-        1540,
+        1665,
+        1750,
       ],
       "raw": "",
       "type": "List",
@@ -3453,6 +3871,63 @@ and continue typing on the next line.",
       ],
       "raw": "Lists Upon Lists",
       "type": "Header",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 132,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 132,
+        },
+      },
+      "range": Array [
+        3443,
+        3468,
+      ],
+      "raw": "// this is just a comment",
+      "type": "Comment",
+      "value": "this is just a comment",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 140,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 140,
+        },
+      },
+      "range": Array [
+        3528,
+        3532,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 144,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 144,
+        },
+      },
+      "range": Array [
+        3592,
+        3596,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
     },
     Object {
       "children": Array [
@@ -4523,6 +4998,25 @@ line two",
     Object {
       "children": Array [
         Object {
+          "loc": Object {
+            "end": Object {
+              "column": 25,
+              "line": 132,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 132,
+            },
+          },
+          "range": Array [
+            3443,
+            3468,
+          ],
+          "raw": "// this is just a comment",
+          "type": "Comment",
+          "value": "this is just a comment",
+        },
+        Object {
           "children": Array [
             Object {
               "children": Array [
@@ -5060,11 +5554,30 @@ first level",
 first level",
               "type": "Paragraph",
             },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 25,
+                  "line": 132,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 132,
+                },
+              },
+              "range": Array [
+                3443,
+                3468,
+              ],
+              "raw": "// this is just a comment",
+              "type": "Comment",
+              "value": "this is just a comment",
+            },
           ],
           "loc": Object {
             "end": Object {
-              "column": 11,
-              "line": 130,
+              "column": 25,
+              "line": 132,
             },
             "start": Object {
               "column": 2,
@@ -5073,7 +5586,7 @@ first level",
           },
           "range": Array [
             3420,
-            3441,
+            3468,
           ],
           "raw": "",
           "type": "ListItem",
@@ -5081,17 +5594,17 @@ first level",
       ],
       "loc": Object {
         "end": Object {
-          "column": 11,
-          "line": 130,
+          "column": 25,
+          "line": 132,
         },
         "start": Object {
-          "column": 2,
-          "line": 114,
+          "column": 0,
+          "line": 132,
         },
       },
       "range": Array [
-        3248,
-        3441,
+        3443,
+        3468,
       ],
       "raw": "",
       "type": "List",
@@ -5213,6 +5726,25 @@ first level",
       ],
       "raw": "...and we're back!",
       "type": "Header",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 62,
+          "line": 167,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 167,
+        },
+      },
+      "range": Array [
+        3992,
+        4054,
+      ],
+      "raw": "// TODO: Use ifdef to show output according to current backend",
+      "type": "Comment",
+      "value": "TODO: Use ifdef to show output according to current backend",
     },
     Object {
       "children": Array [
@@ -5736,6 +6268,44 @@ however improbable, must be the truth.",
       "type": "Header",
     },
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 60,
+          "line": 231,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 231,
+        },
+      },
+      "range": Array [
+        5385,
+        5445,
+      ],
+      "raw": "// This attribute line will get reattached to the next block",
+      "type": "Comment",
+      "value": "This attribute line will get reattached to the next block",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 50,
+          "line": 232,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 232,
+        },
+      },
+      "range": Array [
+        5446,
+        5496,
+      ],
+      "raw": "// despite being followed by a trailing blank line",
+      "type": "Comment",
+      "value": "despite being followed by a trailing blank line",
+    },
+    Object {
       "children": Array [
         Object {
           "loc": Object {
@@ -5854,6 +6424,44 @@ however improbable, must be the truth.",
     },
     Object {
       "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 60,
+              "line": 231,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 231,
+            },
+          },
+          "range": Array [
+            5385,
+            5445,
+          ],
+          "raw": "// This attribute line will get reattached to the next block",
+          "type": "Comment",
+          "value": "This attribute line will get reattached to the next block",
+        },
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 50,
+              "line": 232,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 232,
+            },
+          },
+          "range": Array [
+            5446,
+            5496,
+          ],
+          "raw": "// despite being followed by a trailing blank line",
+          "type": "Comment",
+          "value": "despite being followed by a trailing blank line",
+        },
         Object {
           "children": Array [
             Object {
@@ -6013,11 +6621,49 @@ however improbable, must be the truth.",
               "raw": "third item, \`mono\` it is!",
               "type": "Paragraph",
             },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 60,
+                  "line": 231,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 231,
+                },
+              },
+              "range": Array [
+                5385,
+                5445,
+              ],
+              "raw": "// This attribute line will get reattached to the next block",
+              "type": "Comment",
+              "value": "This attribute line will get reattached to the next block",
+            },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 50,
+                  "line": 232,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 232,
+                },
+              },
+              "range": Array [
+                5446,
+                5496,
+              ],
+              "raw": "// despite being followed by a trailing blank line",
+              "type": "Comment",
+              "value": "despite being followed by a trailing blank line",
+            },
           ],
           "loc": Object {
             "end": Object {
-              "column": 28,
-              "line": 229,
+              "column": 50,
+              "line": 232,
             },
             "start": Object {
               "column": 3,
@@ -6026,7 +6672,7 @@ however improbable, must be the truth.",
           },
           "range": Array [
             5358,
-            5383,
+            5496,
           ],
           "raw": "",
           "type": "ListItem",
@@ -6034,17 +6680,17 @@ however improbable, must be the truth.",
       ],
       "loc": Object {
         "end": Object {
-          "column": 28,
-          "line": 229,
+          "column": 50,
+          "line": 232,
         },
         "start": Object {
-          "column": 3,
-          "line": 227,
+          "column": 0,
+          "line": 231,
         },
       },
       "range": Array [
-        5302,
-        5383,
+        5385,
+        5496,
       ],
       "raw": "",
       "type": "List",
@@ -6867,6 +7513,120 @@ Object {
       "type": "Header",
     },
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 47,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 47,
+        },
+      },
+      "range": Array [
+        943,
+        947,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 55,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 55,
+        },
+      },
+      "range": Array [
+        1048,
+        1052,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 21,
+          "line": 83,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 83,
+        },
+      },
+      "range": Array [
+        1291,
+        1312,
+      ],
+      "raw": "//docdate @ doctime::",
+      "type": "Comment",
+      "value": "docdate @ doctime::",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 23,
+          "line": 84,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 84,
+        },
+      },
+      "range": Array [
+        1313,
+        1336,
+      ],
+      "raw": "//{docdate} @ {doctime}",
+      "type": "Comment",
+      "value": "{docdate} @ {doctime}",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 86,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 86,
+        },
+      },
+      "range": Array [
+        1338,
+        1363,
+      ],
+      "raw": "//localdate @ localtime::",
+      "type": "Comment",
+      "value": "localdate @ localtime::",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 27,
+          "line": 87,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 87,
+        },
+      },
+      "range": Array [
+        1364,
+        1391,
+      ],
+      "raw": "//{localdate} @ {localtime}",
+      "type": "Comment",
+      "value": "{localdate} @ {localtime}",
+    },
+    Object {
       "children": Array [
         Object {
           "loc": Object {
@@ -7557,7 +8317,159 @@ Object {
       "type": "Header",
     },
     Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 47,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 47,
+        },
+      },
+      "range": Array [
+        943,
+        947,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 4,
+          "line": 55,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 55,
+        },
+      },
+      "range": Array [
+        1048,
+        1052,
+      ],
+      "raw": "////",
+      "type": "Comment",
+      "value": "//",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 21,
+          "line": 83,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 83,
+        },
+      },
+      "range": Array [
+        1291,
+        1312,
+      ],
+      "raw": "//docdate @ doctime::",
+      "type": "Comment",
+      "value": "docdate @ doctime::",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 23,
+          "line": 84,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 84,
+        },
+      },
+      "range": Array [
+        1313,
+        1336,
+      ],
+      "raw": "//{docdate} @ {doctime}",
+      "type": "Comment",
+      "value": "{docdate} @ {doctime}",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 25,
+          "line": 86,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 86,
+        },
+      },
+      "range": Array [
+        1338,
+        1363,
+      ],
+      "raw": "//localdate @ localtime::",
+      "type": "Comment",
+      "value": "localdate @ localtime::",
+    },
+    Object {
+      "loc": Object {
+        "end": Object {
+          "column": 27,
+          "line": 87,
+        },
+        "start": Object {
+          "column": 0,
+          "line": 87,
+        },
+      },
+      "range": Array [
+        1364,
+        1391,
+      ],
+      "raw": "//{localdate} @ {localtime}",
+      "type": "Comment",
+      "value": "{localdate} @ {localtime}",
+    },
+    Object {
       "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 4,
+              "line": 47,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 47,
+            },
+          },
+          "range": Array [
+            943,
+            947,
+          ],
+          "raw": "////",
+          "type": "Comment",
+          "value": "//",
+        },
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 4,
+              "line": 55,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 55,
+            },
+          },
+          "range": Array [
+            1048,
+            1052,
+          ],
+          "raw": "////",
+          "type": "Comment",
+          "value": "//",
+        },
         Object {
           "children": Array [
             Object {
@@ -7776,11 +8688,49 @@ Object {
               "raw": "_n/a_",
               "type": "Paragraph",
             },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 4,
+                  "line": 47,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 47,
+                },
+              },
+              "range": Array [
+                943,
+                947,
+              ],
+              "raw": "////",
+              "type": "Comment",
+              "value": "//",
+            },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 4,
+                  "line": 55,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 55,
+                },
+              },
+              "range": Array [
+                1048,
+                1052,
+              ],
+              "raw": "////",
+              "type": "Comment",
+              "value": "//",
+            },
           ],
           "loc": Object {
             "end": Object {
-              "column": 21,
-              "line": 45,
+              "column": 4,
+              "line": 55,
             },
             "start": Object {
               "column": 16,
@@ -7789,7 +8739,7 @@ Object {
           },
           "range": Array [
             935,
-            940,
+            1052,
           ],
           "raw": "",
           "type": "ListItem",
@@ -7797,23 +8747,99 @@ Object {
       ],
       "loc": Object {
         "end": Object {
-          "column": 21,
-          "line": 45,
+          "column": 4,
+          "line": 55,
         },
         "start": Object {
           "column": 0,
-          "line": 40,
+          "line": 47,
         },
       },
       "range": Array [
-        862,
-        940,
+        943,
+        1052,
       ],
       "raw": "",
       "type": "List",
     },
     Object {
       "children": Array [
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 21,
+              "line": 83,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 83,
+            },
+          },
+          "range": Array [
+            1291,
+            1312,
+          ],
+          "raw": "//docdate @ doctime::",
+          "type": "Comment",
+          "value": "docdate @ doctime::",
+        },
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 23,
+              "line": 84,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 84,
+            },
+          },
+          "range": Array [
+            1313,
+            1336,
+          ],
+          "raw": "//{docdate} @ {doctime}",
+          "type": "Comment",
+          "value": "{docdate} @ {doctime}",
+        },
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 25,
+              "line": 86,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 86,
+            },
+          },
+          "range": Array [
+            1338,
+            1363,
+          ],
+          "raw": "//localdate @ localtime::",
+          "type": "Comment",
+          "value": "localdate @ localtime::",
+        },
+        Object {
+          "loc": Object {
+            "end": Object {
+              "column": 27,
+              "line": 87,
+            },
+            "start": Object {
+              "column": 0,
+              "line": 87,
+            },
+          },
+          "range": Array [
+            1364,
+            1391,
+          ],
+          "raw": "//{localdate} @ {localtime}",
+          "type": "Comment",
+          "value": "{localdate} @ {localtime}",
+        },
         Object {
           "children": Array [
             Object {
@@ -8858,11 +9884,87 @@ Object {
               "raw": "{doctype}",
               "type": "Paragraph",
             },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 21,
+                  "line": 83,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 83,
+                },
+              },
+              "range": Array [
+                1291,
+                1312,
+              ],
+              "raw": "//docdate @ doctime::",
+              "type": "Comment",
+              "value": "docdate @ doctime::",
+            },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 23,
+                  "line": 84,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 84,
+                },
+              },
+              "range": Array [
+                1313,
+                1336,
+              ],
+              "raw": "//{docdate} @ {doctime}",
+              "type": "Comment",
+              "value": "{docdate} @ {doctime}",
+            },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 25,
+                  "line": 86,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 86,
+                },
+              },
+              "range": Array [
+                1338,
+                1363,
+              ],
+              "raw": "//localdate @ localtime::",
+              "type": "Comment",
+              "value": "localdate @ localtime::",
+            },
+            Object {
+              "loc": Object {
+                "end": Object {
+                  "column": 27,
+                  "line": 87,
+                },
+                "start": Object {
+                  "column": 0,
+                  "line": 87,
+                },
+              },
+              "range": Array [
+                1364,
+                1391,
+              ],
+              "raw": "//{localdate} @ {localtime}",
+              "type": "Comment",
+              "value": "{localdate} @ {localtime}",
+            },
           ],
           "loc": Object {
             "end": Object {
-              "column": 9,
-              "line": 81,
+              "column": 27,
+              "line": 87,
             },
             "start": Object {
               "column": 0,
@@ -8871,7 +9973,7 @@ Object {
           },
           "range": Array [
             1280,
-            1289,
+            1391,
           ],
           "raw": "",
           "type": "ListItem",
@@ -8879,17 +9981,17 @@ Object {
       ],
       "loc": Object {
         "end": Object {
-          "column": 9,
-          "line": 81,
+          "column": 27,
+          "line": 87,
         },
         "start": Object {
           "column": 0,
-          "line": 56,
+          "line": 83,
         },
       },
       "range": Array [
-        1053,
-        1289,
+        1291,
+        1391,
       ],
       "raw": "",
       "type": "List",
