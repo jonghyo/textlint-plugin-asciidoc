@@ -3,10 +3,8 @@
   "compilerOptions": {
     "composite": false,
     "noEmit": true,
-    "allowJs": true
+    "allowJs": true,
+    "types": ["jest"]
   },
-  "include": [
-    "../src/**/*",
-    "./**/*"
-  ]
+  "include": ["../src/**/*", "./**/*"]
 }

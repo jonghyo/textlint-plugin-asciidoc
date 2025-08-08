@@ -8,9 +8,9 @@ export class AsciidocProcessor {
   config: TextlintPluginOptions;
   extensions: Array<string>;
 
-  constructor(config = {}) {
-      this.config = config;
-      this.extensions = this.config.extensions ? this.config.extensions : [];
+  constructor(config: TextlintPluginOptions = {}) {
+    this.config = config;
+    this.extensions = (config.extensions as string[] | undefined) ?? [];
   }
 
   availableExtensions() {
@@ -25,9 +25,9 @@ export class AsciidocProcessor {
       postProcess(messages: any[], filePath?: string) {
         return {
           messages,
-          filePath: filePath ? filePath : "<asciidoc>"
+          filePath: filePath ? filePath : "<asciidoc>",
         };
-      }
+      },
     };
   }
 }
