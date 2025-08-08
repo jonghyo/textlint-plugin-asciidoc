@@ -13,7 +13,7 @@ This is inspired by [textlint-plugin-asciidoctor](https://github.com/seikichi/te
 ## Installation
 
 ```sh
-> npm install @ynitto/textlint-plugin-asciidoc
+> npm install @jonghyo/textlint-plugin-asciidoc
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ This is inspired by [textlint-plugin-asciidoctor](https://github.com/seikichi/te
 ```
 {
   "plugins": [
-    "@ynitto/asciidoc"
+    "@jonghyo/asciidoc"
   ]
 }
 ```
@@ -51,6 +51,7 @@ This plugin recognize these file extension as asciidoc file.
 ## Alternatives
 
 - [azu/textlint-plugin-asciidoc-loose](https://github.com/azu/textlint-plugin-asciidoc-loose)
+- [ynitto/textlint-plugin-asciidoc-loose](https://github.com/ynitto/textlint-plugin-asciidoc)
 - [textlint-plugin-asciidoctor](https://github.com/seikichi/textlint-plugin-asciidoctor)
 
 ## License

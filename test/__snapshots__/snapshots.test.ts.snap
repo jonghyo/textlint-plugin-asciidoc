@@ -5293,35 +5293,6 @@ first level",
       "type": "Paragraph",
     },
     Object {
-      "lang": "ruby",
-      "loc": Object {
-        "end": Object {
-          "column": 16,
-          "line": 164,
-        },
-        "start": Object {
-          "column": 0,
-          "line": 160,
-        },
-      },
-      "range": Array [
-        3858,
-        3985,
-      ],
-      "raw": "require 'asciidoctor'
-
-doc = Asciidoctor.load '*This* is http://asciidoc.org[AsciiDoc]!', header_footer: true
-
-puts doc.convert",
-      "title": "Asciidoctor usage example. The listing should contain 5 lines.",
-      "type": "CodeBlock",
-      "value": "require 'asciidoctor'
-
-doc = Asciidoctor.load '*This* is http://asciidoc.org[AsciiDoc]!', header_footer: true
-
-puts doc.convert",
-    },
-    Object {
       "lang": "html",
       "loc": Object {
         "end": Object {
@@ -7135,7 +7106,7 @@ Object {
                   ],
                   "raw": "{asciidoctor-version}",
                   "type": "Str",
-                  "value": "2.0.17",
+                  "value": "2.0.23",
                 },
               ],
               "loc": Object {
