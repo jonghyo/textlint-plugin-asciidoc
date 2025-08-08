@@ -1,6 +1,8 @@
 export default {
   clearMocks: true,
   collectCoverage: true,
+  coverageDirectory: "coverage",
+  coverageReporters: ["text", "lcov", "json-summary"],
   coveragePathIgnorePatterns: ["/node_modules/", "/lib/", "/module/"],
   coverageProvider: "v8",
   roots: ["<rootDir>/src", "<rootDir>/test"],
