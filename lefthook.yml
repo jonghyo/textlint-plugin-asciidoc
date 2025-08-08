@@ -1,0 +1,15 @@
+pre-commit:
+  parallel: true
+  commands:
+    formatting:
+      glob: '*.{js,ts,jsx,tsx,md,mdx,json}'
+      run: npx biome format --write {staged_files}
+    lint:
+      glob: '*.{js,ts,jsx,tsx}'
+      run: npx biome lint {staged_files}
+    tsc:
+      glob: '*.{js,ts,jsx,tsx}'
+      run: npx tsc --noEmit -p ./tsconfig.json
+    secretlint:
+      glob: '**/*'
+      run: npx secretlint --maskSecrets --secretlintignore .gitignore {staged_files}
