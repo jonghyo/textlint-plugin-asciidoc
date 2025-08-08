@@ -3,10 +3,12 @@
 [Asciidoc](https://asciidoc.org/ "Asciidoc") support for [textlint](https://github.com/textlint/textlint "textlint")
 using [asciidoctor.js](https://github.com/asciidoctor/asciidoctor.js).
 
-This is inspired by [textlint-plugin-asciidoctor](https://github.com/seikichi/textlint-plugin-asciidoctor, "textlint-plugin-asciidoctor") and appended some features;
+This is inspired by [textlint-plugin-asciidoctor](https://github.com/seikichi/textlint-plugin-asciidoctor "textlint-plugin-asciidoctor") and appended some features;
 
 - Typescript
 - asciidoctor.js >= 2.1.0 support
+- **Support Asciidoc comment**(e.g. `// foo`)
+  - You can use [textlint-filter-rule-comments](https://github.com/textlint/textlint-filter-rule-comments "textlint-filter-rule-comments") with Asciidoc.
 - Some syntax support
   - If you find unsupported syntax, please create an issue.
 
@@ -18,7 +20,7 @@ This is inspired by [textlint-plugin-asciidoctor](https://github.com/seikichi/te
 
 ## Usage
 
-```
+```json
 {
   "plugins": [
     "@jonghyo/asciidoc"
