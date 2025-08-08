@@ -33,6 +33,10 @@
     "prepublish": "npm run --if-present build",
     "test": "vitest",
     "tsc": "tsc --noEmit",
+    "lint": "biome lint ./src",
+    "lint:fix": "biome lint --apply ./src",
+    "format": "biome format --write ./src",
+    "check": "biome check --apply ./src",
     "coverage": "vitest run --coverage",
     "updateSnapshot": "vitest --update",
     "watch": "tsc -b --watch"
@@ -42,11 +46,15 @@
     "html-to-text": "^9.0.5"
   },
   "devDependencies": {
+    "@biomejs/biome": "^2.1.4",
+    "@secretlint/secretlint-rule-preset-recommend": "^10.2.2",
     "@textlint/kernel": "^15.2.1",
     "@types/html-to-text": "^9.0.4",
     "@vitest/coverage-v8": "^3.2.4",
     "@vitest/ui": "^3.2.4",
+    "lefthook": "^1.12.2",
     "rimraf": "^3.0.2",
+    "secretlint": "^10.2.2",
     "typescript": "^5.9.2",
     "vitest": "^3.2.4"
   },

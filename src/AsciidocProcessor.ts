@@ -1,33 +1,32 @@
-/* eslint-disable no-unused-vars */
 // LICENSE : MIT
-"use strict";
-import { parse } from "./asciidoc-to-ast";
-import type { TextlintPluginOptions } from "@textlint/types";
+
+import type { TextlintMessage, TextlintPluginOptions } from '@textlint/types'
+import { parse } from './asciidoc-to-ast'
 
 export class AsciidocProcessor {
-  config: TextlintPluginOptions;
-  extensions: Array<string>;
+	config: TextlintPluginOptions
+	extensions: Array<string>
 
-  constructor(config: TextlintPluginOptions = {}) {
-    this.config = config;
-    this.extensions = (config.extensions as string[] | undefined) ?? [];
-  }
+	constructor(config: TextlintPluginOptions = {}) {
+		this.config = config
+		this.extensions = (config.extensions as string[] | undefined) ?? []
+	}
 
-  availableExtensions() {
-    return [".adoc", ".asciidoc", ".asc"].concat(this.extensions);
-  }
+	availableExtensions() {
+		return ['.adoc', '.asciidoc', '.asc'].concat(this.extensions)
+	}
 
-  processor(_ext: string) {
-    return {
-      preProcess(text: string, _filePath?: string) {
-        return parse(text);
-      },
-      postProcess(messages: any[], filePath?: string) {
-        return {
-          messages,
-          filePath: filePath ? filePath : "<asciidoc>",
-        };
-      },
-    };
-  }
+	processor(_ext: string) {
+		return {
+			preProcess(text: string, _filePath?: string) {
+				return parse(text)
+			},
+			postProcess(messages: TextlintMessage[], filePath?: string) {
+				return {
+					messages,
+					filePath: filePath ? filePath : '<asciidoc>',
+				}
+			},
+		}
+	}
 }
