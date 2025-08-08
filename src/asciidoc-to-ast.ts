@@ -628,7 +628,7 @@ export class Converter {
   findLocation(
     lines: string[],
     cursor: LineCursor,
-    type: string
+    _type: string
   ): TxtNodeLocation | null {
     if (lines.length === 0) {
       return null;
@@ -647,14 +647,15 @@ export class Converter {
           found = false;
           break;
         }
-        while (type !== ASTNodeTypes.CodeBlock && line && line.match(/^\/\//)) {
-          offset++;
-          line = this.lines[i + j - 1 + offset];
-          if (line === undefined) {
-            found = false;
-            break;
-          }
-        }
+        // Calicurate the offset for the line number
+        // while (type !== ASTNodeTypes.CodeBlock && line && line.match(/^\/\//)) {
+        //   offset++;
+        //   line = this.lines[i + j - 1 + offset];
+        //   if (line === undefined) {
+        //     found = false;
+        //     break;
+        //   }
+        // }
         if (
           !found ||
           !line ||

@@ -38,6 +38,12 @@
     }
   },
 
-  "include": ["**/*.ts"],
-  "exclude": [".git", "node_modules"]
+  "include": ["src/**/*.ts"],
+  "exclude": [
+    ".git",
+    "node_modules",
+    "test/**/*",
+    "**/*.test.ts",
+    "jest.config.ts"
+  ]
 }
