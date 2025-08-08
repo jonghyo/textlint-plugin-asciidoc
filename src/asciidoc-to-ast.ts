@@ -119,7 +119,9 @@ export class Converter {
       }
       children = children.concat(this.convertElement(element, next));
     }
-    return children;
+
+    const commentNodes = this.extractLineComments(cursor);
+    return [...commentNodes, ...children];
   }
 
   convertDocument(
