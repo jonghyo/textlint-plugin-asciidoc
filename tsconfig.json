@@ -27,7 +27,6 @@
     /* Report errors for fallthrough cases in switch statement. */
     "skipLibCheck": true,
     "exactOptionalPropertyTypes": true,
-    "noEmit": true,
     "noUncheckedIndexedAccess": true,
     "noImplicitOverride": true,
     "forceConsistentCasingInFileNames": true,
