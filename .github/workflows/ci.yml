@@ -24,6 +24,31 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    # 6時間も待たされないようにタイムアウトを設定
+    timeout-minutes: 5
+    # ジョブレベルで必要最小限のパーミッションを定義
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+      - name: Cache NPM
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-npm-${{ hashFiles('package.json', 'package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+      - name: Install Dependencies
+        run: npm ci
+      - name: Run Lint
+        run: npm run lint
   tsc:
     name: tsc
     runs-on: ubuntu-latest
@@ -99,7 +124,7 @@ jobs:
     permissions:
       contents: read
       actions: write
-    needs: [tsc, unit_test]
+    needs: [lint, tsc, unit_test]
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
@@ -134,7 +159,7 @@ jobs:
     permissions:
       contents: read
       id-token: write # NPM provenance用
-    needs: [tsc, unit_test]
+    needs: [lint, tsc, unit_test]
     steps:
       - uses: actions/checkout@v4
       - name: Set up Node.js
