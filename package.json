@@ -1,6 +1,6 @@
 {
   "name": "@jonghyo/textlint-plugin-asciidoc",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "textlint plugin for Asciidoc with comment support.",
   "keywords": [
     "asciidoc",
