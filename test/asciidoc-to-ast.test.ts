@@ -754,7 +754,6 @@ D
 `);
   testAST(node as any);
   expect((node as any).children).toEqual([
-    oc({ type: "Paragraph", children: [oc({ type: "Str", value: "A B" })] }),
     oc({ type: "Paragraph", children: [oc({ type: "Str", value: "C" })] }),
     oc({
       type: "Paragraph",

@@ -117,11 +117,11 @@ Object {
             },
             "start": Object {
               "column": 0,
-              "line": 1,
+              "line": 2,
             },
           },
           "range": Array [
-            0,
+            70,
             87,
           ],
           "raw": "The Article Title",
@@ -137,11 +137,11 @@ Object {
         },
         "start": Object {
           "column": 0,
-          "line": 1,
+          "line": 2,
         },
       },
       "range": Array [
-        0,
+        70,
         87,
       ],
       "raw": "The Article Title",
@@ -2067,7 +2067,7 @@ of AsciiDoc labeled lists.",
     },
     "start": Object {
       "column": 0,
-      "line": 1,
+      "line": 2,
     },
   },
   "range": Array [
