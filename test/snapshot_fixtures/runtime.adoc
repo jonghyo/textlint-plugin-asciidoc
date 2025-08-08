@@ -18,7 +18,7 @@ It also has some examples to show off the available features in the GitHub envir
 
 == Environment Info
 
-AsciiDoc implementation footnoteref:[calculated,Calculated value]::
+AsciiDoc implementation footnote:calculated[Calculated value]::
 ifdef::asciidoctor-version[Asciidoctor]
 ifdef::asciidoc-version[AsciiDoc Python]
 
@@ -31,7 +31,7 @@ safe-mode-name::
 env::
 {env}
 
-Rendering mode footnoteref:[calculated]::
+Rendering mode footnote:calculated[]::
 ifdef::embedded[embedded]
 ifndef::embedded[standalone]
 
@@ -161,9 +161,9 @@ UI macro examples::
 
   Menu (menu):::
   Select menu:View[Zoom > Reset] to reset the zoom level.
-  
+
 See more <<examples-2>> in this document or the <<article#example-abstract,Example Abstract>> in another document located in this repository.
-  
+
 == Examples
 
 An example of a first duplicate section title to test auto-generated IDs.

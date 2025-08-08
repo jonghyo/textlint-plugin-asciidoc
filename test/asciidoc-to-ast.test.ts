@@ -1,11 +1,13 @@
 /* eslint-disable no-unused-vars */
 // LICENSE : MIT
 "use strict";
+import { describe, test, expect } from "vitest";
 import { parse, Converter } from "../src/asciidoc-to-ast";
 import { test as testAST } from "@textlint/ast-tester";
 import asciidoctor, { Asciidoctor } from "@asciidoctor/core";
 
-const oc = expect.objectContaining;
+// vitestでは expect.objectContaining の代わりに expect.objectContaining を使用
+const oc = (obj: any) => expect.objectContaining(obj);
 
 test("single word", () => {
   const node = parse("text");

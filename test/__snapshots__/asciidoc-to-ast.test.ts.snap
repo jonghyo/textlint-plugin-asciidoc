@@ -1,20 +1,20 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
 exports[`admonition 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -22,18 +22,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 4,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 4,
         },
       },
-      "range": Array [
+      "range": [
         32,
         45,
       ],
@@ -41,18 +41,18 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         74,
         82,
       ],
@@ -60,20 +60,20 @@ Object {
       "type": "Comment",
       "value": "block",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 21,
               "line": 2,
             },
-            "start": Object {
+            "start": {
               "column": 6,
               "line": 2,
             },
           },
-          "range": Array [
+          "range": [
             15,
             30,
           ],
@@ -82,37 +82,37 @@ Object {
           "value": "This is a note.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 21,
           "line": 2,
         },
-        "start": Object {
+        "start": {
           "column": 6,
           "line": 2,
         },
       },
-      "range": Array [
+      "range": [
         15,
         30,
       ],
       "raw": "This is a note.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 19,
               "line": 6,
             },
-            "start": Object {
+            "start": {
               "column": 5,
               "line": 6,
             },
           },
-          "range": Array [
+          "range": [
             58,
             72,
           ],
@@ -121,17 +121,17 @@ Object {
           "value": "This is a tip.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 5,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         58,
         72,
       ],
@@ -139,22 +139,22 @@ Object {
       "title": "title",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 18,
                   "line": 11,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 11,
                 },
               },
-              "range": Array [
+              "range": [
                 98,
                 116,
               ],
@@ -163,41 +163,41 @@ Object {
               "value": "This is a warning.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 18,
               "line": 11,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 11,
             },
           },
-          "range": Array [
+          "range": [
             98,
             116,
           ],
           "raw": "This is a warning.",
           "type": "Paragraph",
         },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "children": Array [
-                    Object {
-                      "loc": Object {
-                        "end": Object {
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "loc": {
+                        "end": {
                           "column": 6,
                           "line": 13,
                         },
-                        "start": Object {
+                        "start": {
                           "column": 2,
                           "line": 13,
                         },
                       },
-                      "range": Array [
+                      "range": [
                         120,
                         124,
                       ],
@@ -206,17 +206,17 @@ Object {
                       "value": "list",
                     },
                   ],
-                  "loc": Object {
-                    "end": Object {
+                  "loc": {
+                    "end": {
                       "column": 6,
                       "line": 13,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 2,
                       "line": 13,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     120,
                     124,
                   ],
@@ -224,17 +224,17 @@ Object {
                   "type": "Paragraph",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 6,
                   "line": 13,
                 },
-                "start": Object {
+                "start": {
                   "column": 2,
                   "line": 13,
                 },
               },
-              "range": Array [
+              "range": [
                 120,
                 124,
               ],
@@ -242,17 +242,17 @@ Object {
               "type": "ListItem",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 6,
               "line": 13,
             },
-            "start": Object {
+            "start": {
               "column": 2,
               "line": 13,
             },
           },
-          "range": Array [
+          "range": [
             120,
             124,
           ],
@@ -260,17 +260,17 @@ Object {
           "type": "List",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 6,
           "line": 13,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 11,
         },
       },
-      "range": Array [
+      "range": [
         98,
         124,
       ],
@@ -278,17 +278,17 @@ Object {
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 6,
       "line": 13,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     129,
   ],
@@ -311,20 +311,20 @@ This is a warning.
 `;
 
 exports[`example 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -332,18 +332,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         25,
         38,
       ],
@@ -351,20 +351,20 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 13,
               "line": 6,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 6,
             },
           },
-          "range": Array [
+          "range": [
             25,
             38,
           ],
@@ -372,20 +372,20 @@ Object {
           "type": "Comment",
           "value": "with title",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 4,
                   "line": 3,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 3,
                 },
               },
-              "range": Array [
+              "range": [
                 14,
                 18,
               ],
@@ -394,17 +394,17 @@ Object {
               "value": "text",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 4,
               "line": 3,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 3,
             },
           },
-          "range": Array [
+          "range": [
             14,
             18,
           ],
@@ -412,39 +412,39 @@ Object {
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 4,
           "line": 3,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         25,
         18,
       ],
       "raw": "",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 15,
                   "line": 9,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 9,
                 },
               },
-              "range": Array [
+              "range": [
                 51,
                 66,
               ],
@@ -453,17 +453,17 @@ Object {
               "value": "text with title",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 15,
               "line": 9,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 9,
             },
           },
-          "range": Array [
+          "range": [
             51,
             66,
           ],
@@ -471,17 +471,17 @@ Object {
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 9,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 9,
         },
       },
-      "range": Array [
+      "range": [
         51,
         66,
       ],
@@ -490,17 +490,17 @@ Object {
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 15,
       "line": 9,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     71,
   ],
@@ -519,20 +519,20 @@ text with title
 `;
 
 exports[`inline quoted 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 11,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         11,
       ],
@@ -540,18 +540,18 @@ Object {
       "type": "Comment",
       "value": "emphasis",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 4,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 4,
         },
       },
-      "range": Array [
+      "range": [
         44,
         63,
       ],
@@ -559,18 +559,18 @@ Object {
       "type": "Comment",
       "value": "partial emphasis",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 9,
           "line": 7,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 7,
         },
       },
-      "range": Array [
+      "range": [
         105,
         114,
       ],
@@ -578,18 +578,18 @@ Object {
       "type": "Comment",
       "value": "strong",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 17,
           "line": 10,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 10,
         },
       },
-      "range": Array [
+      "range": [
         144,
         161,
       ],
@@ -597,18 +597,18 @@ Object {
       "type": "Comment",
       "value": "partial strong",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 12,
           "line": 13,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 13,
         },
       },
-      "range": Array [
+      "range": [
         201,
         213,
       ],
@@ -616,18 +616,18 @@ Object {
       "type": "Comment",
       "value": "monospace",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 20,
           "line": 16,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 16,
         },
       },
-      "range": Array [
+      "range": [
         246,
         266,
       ],
@@ -635,18 +635,18 @@ Object {
       "type": "Comment",
       "value": "partial monospace",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 7,
           "line": 19,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 19,
         },
       },
-      "range": Array [
+      "range": [
         309,
         316,
       ],
@@ -654,18 +654,18 @@ Object {
       "type": "Comment",
       "value": "mark",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 17,
           "line": 22,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 22,
         },
       },
-      "range": Array [
+      "range": [
         344,
         361,
       ],
@@ -673,18 +673,18 @@ Object {
       "type": "Comment",
       "value": "mark with role",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 25,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 25,
         },
       },
-      "range": Array [
+      "range": [
         403,
         418,
       ],
@@ -692,18 +692,18 @@ Object {
       "type": "Comment",
       "value": ".superscript",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 28,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 28,
         },
       },
-      "range": Array [
+      "range": [
         453,
         466,
       ],
@@ -711,18 +711,18 @@ Object {
       "type": "Comment",
       "value": ".subscript",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 31,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 31,
         },
       },
-      "range": Array [
+      "range": [
         499,
         514,
       ],
@@ -730,18 +730,18 @@ Object {
       "type": "Comment",
       "value": "double quote",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 34,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 34,
         },
       },
-      "range": Array [
+      "range": [
         553,
         568,
       ],
@@ -749,18 +749,18 @@ Object {
       "type": "Comment",
       "value": "single quote",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 37,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 37,
         },
       },
-      "range": Array [
+      "range": [
         607,
         620,
       ],
@@ -768,18 +768,18 @@ Object {
       "type": "Comment",
       "value": "apostrophe",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 40,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 40,
         },
       },
-      "range": Array [
+      "range": [
         656,
         686,
       ],
@@ -787,20 +787,20 @@ Object {
       "type": "Comment",
       "value": "mixed monospace bold italic",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 2,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 2,
             },
           },
-          "range": Array [
+          "range": [
             12,
             42,
           ],
@@ -809,37 +809,37 @@ Object {
           "value": "This is an emphasis example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 2,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 2,
         },
       },
-      "range": Array [
+      "range": [
         12,
         42,
       ],
       "raw": "This is an _emphasis_ example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 39,
               "line": 5,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 5,
             },
           },
-          "range": Array [
+          "range": [
             64,
             103,
           ],
@@ -848,37 +848,37 @@ Object {
           "value": "This is a partial emphasis example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 39,
           "line": 5,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 5,
         },
       },
-      "range": Array [
+      "range": [
         64,
         103,
       ],
       "raw": "This is a __part__ial emphasis example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 27,
               "line": 8,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 8,
             },
           },
-          "range": Array [
+          "range": [
             115,
             142,
           ],
@@ -887,37 +887,37 @@ Object {
           "value": "This is a strong example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 27,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         115,
         142,
       ],
       "raw": "This is a *strong* example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 37,
               "line": 11,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 11,
             },
           },
-          "range": Array [
+          "range": [
             162,
             199,
           ],
@@ -926,37 +926,37 @@ Object {
           "value": "This is a partial strong example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 37,
           "line": 11,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 11,
         },
       },
-      "range": Array [
+      "range": [
         162,
         199,
       ],
       "raw": "This is a **part**ial strong example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 14,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 14,
             },
           },
-          "range": Array [
+          "range": [
             214,
             244,
           ],
@@ -965,37 +965,37 @@ Object {
           "value": "This is a monospace example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 14,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 14,
         },
       },
-      "range": Array [
+      "range": [
         214,
         244,
       ],
       "raw": "This is a \`monospace\` example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 40,
               "line": 17,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 17,
             },
           },
-          "range": Array [
+          "range": [
             267,
             307,
           ],
@@ -1004,37 +1004,37 @@ Object {
           "value": "This is a partial monospace example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 40,
           "line": 17,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 17,
         },
       },
-      "range": Array [
+      "range": [
         267,
         307,
       ],
       "raw": "This is a \`\`part\`\`ial monospace example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 25,
               "line": 20,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 20,
             },
           },
-          "range": Array [
+          "range": [
             317,
             342,
           ],
@@ -1043,37 +1043,37 @@ Object {
           "value": "This is a mark example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 25,
           "line": 20,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 20,
         },
       },
-      "range": Array [
+      "range": [
         317,
         342,
       ],
       "raw": "This is a #mark# example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 39,
               "line": 23,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 23,
             },
           },
-          "range": Array [
+          "range": [
             362,
             401,
           ],
@@ -1082,37 +1082,37 @@ Object {
           "value": "This is a small mark example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 39,
           "line": 23,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 23,
         },
       },
-      "range": Array [
+      "range": [
         362,
         401,
       ],
       "raw": "This is a [.small]#small mark# example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 32,
               "line": 26,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 26,
             },
           },
-          "range": Array [
+          "range": [
             419,
             451,
           ],
@@ -1121,37 +1121,37 @@ Object {
           "value": "This is a superscript example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 32,
           "line": 26,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 26,
         },
       },
-      "range": Array [
+      "range": [
         419,
         451,
       ],
       "raw": "This is a ^super^script example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 29,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 29,
             },
           },
-          "range": Array [
+          "range": [
             467,
             497,
           ],
@@ -1160,76 +1160,76 @@ Object {
           "value": "This is a subscript example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 29,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 29,
         },
       },
-      "range": Array [
+      "range": [
         467,
         497,
       ],
       "raw": "This is a ~sub~script example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 36,
               "line": 32,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 32,
             },
           },
-          "range": Array [
+          "range": [
             515,
             551,
           ],
-          "raw": "This is a \\"\`double quotes\`\\" example.",
+          "raw": "This is a "\`double quotes\`" example.",
           "type": "Str",
           "value": "This is a “double quotes” example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 36,
           "line": 32,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 32,
         },
       },
-      "range": Array [
+      "range": [
         515,
         551,
       ],
-      "raw": "This is a \\"\`double quotes\`\\" example.",
+      "raw": "This is a "\`double quotes\`" example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 36,
               "line": 35,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 35,
             },
           },
-          "range": Array [
+          "range": [
             569,
             605,
           ],
@@ -1238,37 +1238,37 @@ Object {
           "value": "This is a ‘single quotes’ example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 36,
           "line": 35,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 35,
         },
       },
-      "range": Array [
+      "range": [
         569,
         605,
       ],
       "raw": "This is a '\`single quotes\`' example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 33,
               "line": 38,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 38,
             },
           },
-          "range": Array [
+          "range": [
             621,
             654,
           ],
@@ -1277,37 +1277,37 @@ Object {
           "value": "This is an apostrophe’s example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 33,
           "line": 38,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 38,
         },
       },
-      "range": Array [
+      "range": [
         621,
         654,
       ],
       "raw": "This is an apostrophe\`'s example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 58,
               "line": 41,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 41,
             },
           },
-          "range": Array [
+          "range": [
             687,
             745,
           ],
@@ -1316,17 +1316,17 @@ Object {
           "value": "monospace bold italic phrase and letters",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 58,
           "line": 41,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 41,
         },
       },
-      "range": Array [
+      "range": [
         687,
         745,
       ],
@@ -1334,17 +1334,17 @@ Object {
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 58,
       "line": 41,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     745,
   ],
@@ -1379,7 +1379,7 @@ This is a ^super^script example.
 This is a ~sub~script example.
 
 // double quote
-This is a \\"\`double quotes\`\\" example.
+This is a "\`double quotes\`" example.
 
 // single quote
 This is a '\`single quotes\`' example.
@@ -1394,20 +1394,20 @@ This is an apostrophe\`'s example.
 `;
 
 exports[`listing 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -1415,18 +1415,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         47,
         60,
       ],
@@ -1434,18 +1434,18 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 9,
           "line": 12,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         117,
         126,
       ],
@@ -1453,18 +1453,18 @@ Object {
       "type": "Comment",
       "value": "source",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 22,
           "line": 18,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 18,
         },
       },
-      "range": Array [
+      "range": [
         172,
         194,
       ],
@@ -1472,18 +1472,18 @@ Object {
       "type": "Comment",
       "value": "source with comment",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 10,
           "line": 21,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 21,
         },
       },
-      "range": Array [
+      "range": [
         212,
         222,
       ],
@@ -1491,58 +1491,58 @@ Object {
       "type": "Comment",
       "value": "comment",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 26,
           "line": 3,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 3,
         },
       },
-      "range": Array [
+      "range": [
         14,
         40,
       ],
-      "raw": "echo \\"This is an example.\\"",
+      "raw": "echo "This is an example."",
       "type": "CodeBlock",
-      "value": "echo \\"This is an example.\\"",
+      "value": "echo "This is an example."",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 37,
           "line": 9,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 9,
         },
       },
-      "range": Array [
+      "range": [
         73,
         110,
       ],
-      "raw": "echo \\"This is an example with title.\\"",
+      "raw": "echo "This is an example with title."",
       "title": "title",
       "type": "CodeBlock",
-      "value": "echo \\"This is an example with title.\\"",
+      "value": "echo "This is an example with title."",
     },
-    Object {
+    {
       "lang": "ruby",
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 15,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 15,
         },
       },
-      "range": Array [
+      "range": [
         146,
         165,
       ],
@@ -1550,52 +1550,52 @@ Object {
       "type": "CodeBlock",
       "value": "puts 'Hello world!'",
     },
-    Object {
+    {
       "lang": "js",
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 27,
           "line": 22,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 21,
         },
       },
-      "range": Array [
+      "range": [
         212,
         250,
       ],
       "raw": "// comment
-console.log(\\"Hello world!\\")",
+console.log("Hello world!")",
       "type": "CodeBlock",
       "value": "// comment
-console.log(\\"Hello world!\\")",
+console.log("Hello world!")",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 27,
       "line": 22,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     255,
   ],
   "raw": "// basic
 ----
-echo \\"This is an example.\\"
+echo "This is an example."
 ----
 
 // with title
 .title
 ----
-echo \\"This is an example with title.\\"
+echo "This is an example with title."
 ----
 
 // source
@@ -1608,27 +1608,27 @@ puts 'Hello world!'
 [source,js]
 ----
 // comment
-console.log(\\"Hello world!\\")
+console.log("Hello world!")
 ----",
   "type": "Document",
 }
 `;
 
 exports[`literal 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -1636,18 +1636,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         40,
         53,
       ],
@@ -1655,18 +1655,18 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 12,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         103,
         118,
       ],
@@ -1674,20 +1674,20 @@ Object {
       "type": "Comment",
       "value": "style syntax",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 19,
               "line": 3,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 3,
             },
           },
-          "range": Array [
+          "range": [
             14,
             33,
           ],
@@ -1696,37 +1696,37 @@ Object {
           "value": "This is an example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 3,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 3,
         },
       },
-      "range": Array [
+      "range": [
         14,
         33,
       ],
       "raw": "This is an example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 9,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 9,
             },
           },
-          "range": Array [
+          "range": [
             66,
             96,
           ],
@@ -1735,17 +1735,17 @@ Object {
           "value": "This is an example with title.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 9,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 9,
         },
       },
-      "range": Array [
+      "range": [
         66,
         96,
       ],
@@ -1753,20 +1753,20 @@ Object {
       "title": "title",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 32,
               "line": 16,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 14,
             },
           },
-          "range": Array [
+          "range": [
             129,
             251,
           ],
@@ -1779,17 +1779,17 @@ absolutely fatal: operation lost in the dodecahedron of doom
 Would you like to try again? y/n",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 32,
           "line": 16,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 14,
         },
       },
-      "range": Array [
+      "range": [
         129,
         251,
       ],
@@ -1799,17 +1799,17 @@ Would you like to try again? y/n",
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 32,
       "line": 16,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     251,
   ],
@@ -1834,20 +1834,20 @@ Would you like to try again? y/n",
 `;
 
 exports[`open 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -1855,18 +1855,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         36,
         49,
       ],
@@ -1874,18 +1874,18 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 11,
           "line": 12,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         95,
         106,
       ],
@@ -1893,18 +1893,18 @@ Object {
       "type": "Comment",
       "value": "abstract",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 9,
           "line": 18,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 18,
         },
       },
-      "range": Array [
+      "range": [
         166,
         175,
       ],
@@ -1912,20 +1912,20 @@ Object {
       "type": "Comment",
       "value": "source",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 13,
               "line": 6,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 6,
             },
           },
-          "range": Array [
+          "range": [
             36,
             49,
           ],
@@ -1933,20 +1933,20 @@ Object {
           "type": "Comment",
           "value": "with title",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 19,
                   "line": 3,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 3,
                 },
               },
-              "range": Array [
+              "range": [
                 12,
                 31,
               ],
@@ -1955,17 +1955,17 @@ Object {
               "value": "This is an example.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 19,
               "line": 3,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 3,
             },
           },
-          "range": Array [
+          "range": [
             12,
             31,
           ],
@@ -1973,37 +1973,37 @@ Object {
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 3,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         36,
         31,
       ],
       "raw": "",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 11,
               "line": 12,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 12,
             },
           },
-          "range": Array [
+          "range": [
             95,
             106,
           ],
@@ -2011,20 +2011,20 @@ Object {
           "type": "Comment",
           "value": "abstract",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 30,
                   "line": 9,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 9,
                 },
               },
-              "range": Array [
+              "range": [
                 60,
                 90,
               ],
@@ -2033,17 +2033,17 @@ Object {
               "value": "This is an example with title.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 9,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 9,
             },
           },
-          "range": Array [
+          "range": [
             60,
             90,
           ],
@@ -2051,17 +2051,17 @@ Object {
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 9,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         95,
         90,
       ],
@@ -2069,20 +2069,20 @@ Object {
       "title": "title",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 9,
               "line": 18,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 18,
             },
           },
-          "range": Array [
+          "range": [
             166,
             175,
           ],
@@ -2090,20 +2090,20 @@ Object {
           "type": "Comment",
           "value": "source",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 40,
                   "line": 15,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 15,
                 },
               },
-              "range": Array [
+              "range": [
                 121,
                 161,
               ],
@@ -2112,17 +2112,17 @@ Object {
               "value": "This is an abstract quote block example.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 40,
               "line": 15,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 15,
             },
           },
-          "range": Array [
+          "range": [
             121,
             161,
           ],
@@ -2130,54 +2130,54 @@ Object {
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 40,
           "line": 15,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 18,
         },
       },
-      "range": Array [
+      "range": [
         166,
         161,
       ],
       "raw": "",
       "type": "Paragraph",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 23,
           "line": 21,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 21,
         },
       },
-      "range": Array [
+      "range": [
         188,
         211,
       ],
-      "raw": "printf(\\"Hello world!\\");",
+      "raw": "printf("Hello world!");",
       "type": "CodeBlock",
-      "value": "printf(\\"Hello world!\\");",
+      "value": "printf("Hello world!");",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 23,
       "line": 21,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     214,
   ],
@@ -2201,27 +2201,27 @@ This is an abstract quote block example.
 // source
 [source]
 --
-printf(\\"Hello world!\\");
+printf("Hello world!");
 --",
   "type": "Document",
 }
 `;
 
 exports[`paragraph 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 17,
           "line": 2,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 2,
         },
       },
-      "range": Array [
+      "range": [
         2,
         19,
       ],
@@ -2229,18 +2229,18 @@ Object {
       "type": "Comment",
       "value": "inline comment",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 20,
           "line": 5,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 5,
         },
       },
-      "range": Array [
+      "range": [
         23,
         43,
       ],
@@ -2248,18 +2248,18 @@ Object {
       "type": "Comment",
       "value": "paragraph comment",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         47,
         60,
       ],
@@ -2267,20 +2267,20 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 1,
               "line": 6,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 6,
             },
           },
-          "range": Array [
+          "range": [
             44,
             45,
           ],
@@ -2289,37 +2289,37 @@ Object {
           "value": "C",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 1,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         44,
         45,
       ],
       "raw": "C",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 1,
               "line": 10,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 10,
             },
           },
-          "range": Array [
+          "range": [
             68,
             69,
           ],
@@ -2328,17 +2328,17 @@ Object {
           "value": "D",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 1,
           "line": 10,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 10,
         },
       },
-      "range": Array [
+      "range": [
         68,
         69,
       ],
@@ -2347,17 +2347,17 @@ Object {
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 1,
       "line": 10,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 2,
     },
   },
-  "range": Array [
+  "range": [
     0,
     69,
   ],
@@ -2376,20 +2376,20 @@ D",
 `;
 
 exports[`passthrough 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -2397,18 +2397,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         47,
         62,
       ],
@@ -2416,18 +2416,18 @@ Object {
       "type": "Comment",
       "value": "style syntax",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 9,
           "line": 10,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 10,
         },
       },
-      "range": Array [
+      "range": [
         110,
         119,
       ],
@@ -2435,20 +2435,20 @@ Object {
       "type": "Comment",
       "value": "inline",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 26,
               "line": 3,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 3,
             },
           },
-          "range": Array [
+          "range": [
             14,
             40,
           ],
@@ -2457,37 +2457,37 @@ Object {
           "value": "This is an example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 26,
           "line": 3,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 3,
         },
       },
-      "range": Array [
+      "range": [
         14,
         40,
       ],
       "raw": "<p>This is an example.</p>",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 38,
               "line": 8,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 8,
             },
           },
-          "range": Array [
+          "range": [
             70,
             108,
           ],
@@ -2496,37 +2496,37 @@ Object {
           "value": "This is a style syntax example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 38,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         70,
         108,
       ],
       "raw": "<p>This is a style syntax example.</p>",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 40,
               "line": 11,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 11,
             },
           },
-          "range": Array [
+          "range": [
             120,
             160,
           ],
@@ -2535,17 +2535,17 @@ Object {
           "value": "This is an inline example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 40,
           "line": 11,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 11,
         },
       },
-      "range": Array [
+      "range": [
         120,
         160,
       ],
@@ -2553,17 +2553,17 @@ Object {
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 40,
       "line": 11,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     160,
   ],
@@ -2583,20 +2583,20 @@ pass:[<p>This is an inline example.</p>]",
 `;
 
 exports[`quote 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -2604,18 +2604,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 12,
           "line": 11,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 11,
         },
       },
-      "range": Array [
+      "range": [
         336,
         348,
       ],
@@ -2623,20 +2623,20 @@ Object {
       "type": "Comment",
       "value": "paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 12,
               "line": 11,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 11,
             },
           },
-          "range": Array [
+          "range": [
             336,
             348,
           ],
@@ -2644,20 +2644,20 @@ Object {
           "type": "Comment",
           "value": "paragraph",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 90,
                   "line": 4,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 4,
                 },
               },
-              "range": Array [
+              "range": [
                 55,
                 145,
               ],
@@ -2666,37 +2666,37 @@ Object {
               "value": "Dennis: Come and see the violence inherent in the system. Help! Help! I’m being repressed!",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 90,
               "line": 4,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 4,
             },
           },
-          "range": Array [
+          "range": [
             55,
             145,
           ],
           "raw": "Dennis: Come and see the violence inherent in the system. Help! Help! I'm being repressed!",
           "type": "Paragraph",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 28,
                   "line": 6,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 6,
                 },
               },
-              "range": Array [
+              "range": [
                 147,
                 175,
               ],
@@ -2705,37 +2705,37 @@ Object {
               "value": "King Arthur: Bloody peasant!",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 28,
               "line": 6,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 6,
             },
           },
-          "range": Array [
+          "range": [
             147,
             175,
           ],
           "raw": "King Arthur: Bloody peasant!",
           "type": "Paragraph",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 152,
                   "line": 8,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 8,
                 },
               },
-              "range": Array [
+              "range": [
                 177,
                 329,
               ],
@@ -2744,17 +2744,17 @@ Object {
               "value": "Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That’s what I’m on about! Did you see him repressing me? You saw him, Didn’t you?",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 152,
               "line": 8,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 8,
             },
           },
-          "range": Array [
+          "range": [
             177,
             329,
           ],
@@ -2762,39 +2762,39 @@ Object {
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 152,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 11,
         },
       },
-      "range": Array [
+      "range": [
         336,
         329,
       ],
       "raw": "",
       "type": "BlockQuote",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 66,
                   "line": 13,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 12,
                 },
               },
-              "range": Array [
+              "range": [
                 350,
                 480,
               ],
@@ -2804,17 +2804,17 @@ and as necessary in the political world as storms in the physical.",
               "value": "I hold it that a little rebellion now and then is a good thing, and as necessary in the political world as storms in the physical.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 66,
               "line": 13,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 12,
             },
           },
-          "range": Array [
+          "range": [
             350,
             480,
           ],
@@ -2823,17 +2823,17 @@ and as necessary in the political world as storms in the physical.",
           "type": "Paragraph",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 66,
           "line": 13,
         },
-        "start": Object {
+        "start": {
           "column": 1,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         350,
         480,
       ],
@@ -2842,17 +2842,17 @@ and as necessary in the political world as storms in the physical.",
       "type": "BlockQuote",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 66,
       "line": 13,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     540,
   ],
@@ -2867,30 +2867,30 @@ Dennis: Oh, what a giveaway! Did you hear that? Did you hear that, eh? That's wh
 ____
 
 // paragraph
-\\"I hold it that a little rebellion now and then is a good thing,
-and as necessary in the political world as storms in the physical.\\"
+"I hold it that a little rebellion now and then is a good thing,
+and as necessary in the political world as storms in the physical."
 -- Thomas Jefferson, Papers of Thomas Jefferson: Volume 11",
   "type": "Document",
 }
 `;
 
 exports[`section 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+{
+  "children": [
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 7,
               "line": 2,
             },
-            "start": Object {
+            "start": {
               "column": 2,
               "line": 2,
             },
           },
-          "range": Array [
+          "range": [
             11,
             16,
           ],
@@ -2900,35 +2900,35 @@ Object {
         },
       ],
       "depth": 1,
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 7,
           "line": 2,
         },
-        "start": Object {
+        "start": {
           "column": 2,
           "line": 2,
         },
       },
-      "range": Array [
+      "range": [
         11,
         16,
       ],
       "raw": "Title",
       "type": "Header",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -2936,18 +2936,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 17,
           "line": 10,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 10,
         },
       },
-      "range": Array [
+      "range": [
         82,
         99,
       ],
@@ -2955,20 +2955,20 @@ Object {
       "type": "Comment",
       "value": "floating title",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 18,
               "line": 4,
             },
-            "start": Object {
+            "start": {
               "column": 3,
               "line": 4,
             },
           },
-          "range": Array [
+          "range": [
             21,
             36,
           ],
@@ -2978,35 +2978,35 @@ Object {
         },
       ],
       "depth": 2,
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 18,
           "line": 4,
         },
-        "start": Object {
+        "start": {
           "column": 3,
           "line": 4,
         },
       },
-      "range": Array [
+      "range": [
         21,
         36,
       ],
       "raw": "Level 1 Section",
       "type": "Header",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 17,
           "line": 10,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 10,
         },
       },
-      "range": Array [
+      "range": [
         82,
         99,
       ],
@@ -3014,20 +3014,20 @@ Object {
       "type": "Comment",
       "value": "floating title",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 13,
               "line": 6,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 6,
             },
           },
-          "range": Array [
+          "range": [
             38,
             51,
           ],
@@ -3036,37 +3036,37 @@ Object {
           "value": "Hello, world!",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 6,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 6,
         },
       },
-      "range": Array [
+      "range": [
         38,
         51,
       ],
       "raw": "Hello, world!",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 27,
               "line": 8,
             },
-            "start": Object {
+            "start": {
               "column": 4,
               "line": 8,
             },
           },
-          "range": Array [
+          "range": [
             57,
             80,
           ],
@@ -3076,35 +3076,35 @@ Object {
         },
       ],
       "depth": 3,
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 27,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 4,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         57,
         80,
       ],
       "raw": "Level 2 Section's title",
       "type": "Header",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 17,
           "line": 10,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 10,
         },
       },
-      "range": Array [
+      "range": [
         82,
         99,
       ],
@@ -3112,20 +3112,20 @@ Object {
       "type": "Comment",
       "value": "floating title",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 19,
               "line": 12,
             },
-            "start": Object {
+            "start": {
               "column": 3,
               "line": 12,
             },
           },
-          "range": Array [
+          "range": [
             114,
             130,
           ],
@@ -3135,17 +3135,17 @@ Object {
         },
       ],
       "depth": 2,
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 12,
         },
-        "start": Object {
+        "start": {
           "column": 3,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         114,
         130,
       ],
@@ -3153,17 +3153,17 @@ Object {
       "type": "Header",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 19,
       "line": 12,
     },
-    "start": Object {
+    "start": {
       "column": 2,
       "line": 2,
     },
   },
-  "range": Array [
+  "range": [
     0,
     130,
   ],
@@ -3184,20 +3184,20 @@ Hello, world!
 `;
 
 exports[`sidebar 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -3205,18 +3205,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 15,
           "line": 16,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 16,
         },
       },
-      "range": Array [
+      "range": [
         298,
         313,
       ],
@@ -3224,20 +3224,20 @@ Object {
       "type": "Comment",
       "value": "style syntax",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 15,
               "line": 16,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 16,
             },
           },
-          "range": Array [
+          "range": [
             298,
             313,
           ],
@@ -3245,20 +3245,20 @@ Object {
           "type": "Comment",
           "value": "style syntax",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 30,
                   "line": 5,
                 },
-                "start": Object {
+                "start": {
                   "column": 0,
                   "line": 4,
                 },
               },
-              "range": Array [
+              "range": [
                 21,
                 116,
               ],
@@ -3268,17 +3268,17 @@ that supplement the main text.",
               "value": "Sidebars are used to visually separate auxiliary bits of content that supplement the main text.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 5,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 4,
             },
           },
-          "range": Array [
+          "range": [
             21,
             116,
           ],
@@ -3286,20 +3286,20 @@ that supplement the main text.",
 that supplement the main text.",
           "type": "Paragraph",
         },
-        Object {
-          "children": Array [
-            Object {
-              "loc": Object {
-                "end": Object {
+        {
+          "children": [
+            {
+              "loc": {
+                "end": {
                   "column": 42,
                   "line": 7,
                 },
-                "start": Object {
+                "start": {
                   "column": 5,
                   "line": 7,
                 },
               },
-              "range": Array [
+              "range": [
                 123,
                 160,
               ],
@@ -3308,36 +3308,36 @@ that supplement the main text.",
               "value": "They can contain any type of content.",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 42,
               "line": 7,
             },
-            "start": Object {
+            "start": {
               "column": 5,
               "line": 7,
             },
           },
-          "range": Array [
+          "range": [
             123,
             160,
           ],
           "raw": "They can contain any type of content.",
           "type": "Paragraph",
         },
-        Object {
+        {
           "lang": "js",
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 75,
               "line": 12,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 12,
             },
           },
-          "range": Array [
+          "range": [
             211,
             286,
           ],
@@ -3347,17 +3347,17 @@ that supplement the main text.",
           "value": "const { expect, expectCalledWith, heredoc } = require('../test/test-utils')",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 75,
           "line": 12,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 16,
         },
       },
-      "range": Array [
+      "range": [
         298,
         286,
       ],
@@ -3365,20 +3365,20 @@ that supplement the main text.",
       "title": "title",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 30,
               "line": 19,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 18,
             },
           },
-          "range": Array [
+          "range": [
             324,
             419,
           ],
@@ -3388,17 +3388,17 @@ that supplement the main text.",
           "value": "Sidebars are used to visually separate auxiliary bits of content that supplement the main text.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 30,
           "line": 19,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 18,
         },
       },
-      "range": Array [
+      "range": [
         324,
         419,
       ],
@@ -3407,17 +3407,17 @@ that supplement the main text.",
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 30,
       "line": 19,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     419,
   ],
@@ -3445,20 +3445,20 @@ that supplement the main text.",
 `;
 
 exports[`stem 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 12,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         12,
       ],
@@ -3466,18 +3466,18 @@ Object {
       "type": "Comment",
       "value": "asciimath",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 12,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         60,
         72,
       ],
@@ -3485,18 +3485,18 @@ Object {
       "type": "Comment",
       "value": "latexmath",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 13,
           "line": 15,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 15,
         },
       },
-      "range": Array [
+      "range": [
         149,
         162,
       ],
@@ -3504,18 +3504,18 @@ Object {
       "type": "Comment",
       "value": "with title",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 9,
           "line": 23,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 23,
         },
       },
-      "range": Array [
+      "range": [
         207,
         216,
       ],
@@ -3523,18 +3523,18 @@ Object {
       "type": "Comment",
       "value": "inline",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 26,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 26,
         },
       },
-      "range": Array [
+      "range": [
         261,
         280,
       ],
@@ -3542,18 +3542,18 @@ Object {
       "type": "Comment",
       "value": "inline asciimath",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 19,
           "line": 29,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 29,
         },
       },
-      "range": Array [
+      "range": [
         340,
         359,
       ],
@@ -3561,18 +3561,18 @@ Object {
       "type": "Comment",
       "value": "inline latexmath",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 11,
           "line": 5,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 5,
         },
       },
-      "range": Array [
+      "range": [
         42,
         53,
       ],
@@ -3580,37 +3580,37 @@ Object {
       "type": "CodeBlock",
       "value": "sqrt(4) = 2",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 40,
           "line": 12,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 12,
         },
       },
-      "range": Array [
+      "range": [
         102,
         142,
       ],
-      "raw": "C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon",
+      "raw": "C = \\alpha + \\beta Y^{\\gamma} + \\epsilon",
       "type": "CodeBlock",
-      "value": "C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon",
+      "value": "C = \\alpha + \\beta Y^{\\gamma} + \\epsilon",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 11,
           "line": 20,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 20,
         },
       },
-      "range": Array [
+      "range": [
         189,
         200,
       ],
@@ -3619,135 +3619,135 @@ Object {
       "type": "CodeBlock",
       "value": "sqrt(4) = 2",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 42,
               "line": 24,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 24,
             },
           },
-          "range": Array [
+          "range": [
             217,
             259,
           ],
           "raw": "This is inline stem:[sqrt(4) = 2] example.",
           "type": "Str",
-          "value": "This is inline \\\\$sqrt(4) = 2\\\\$ example.",
+          "value": "This is inline \\$sqrt(4) = 2\\$ example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 42,
           "line": 24,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 24,
         },
       },
-      "range": Array [
+      "range": [
         217,
         259,
       ],
       "raw": "This is inline stem:[sqrt(4) = 2] example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 57,
               "line": 27,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 27,
             },
           },
-          "range": Array [
+          "range": [
             281,
             338,
           ],
           "raw": "This is inline asciimath asciimath:[sqrt(4) = 2] example.",
           "type": "Str",
-          "value": "This is inline asciimath \\\\$sqrt(4) = 2\\\\$ example.",
+          "value": "This is inline asciimath \\$sqrt(4) = 2\\$ example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 57,
           "line": 27,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 27,
         },
       },
-      "range": Array [
+      "range": [
         281,
         338,
       ],
       "raw": "This is inline asciimath asciimath:[sqrt(4) = 2] example.",
       "type": "Paragraph",
     },
-    Object {
-      "children": Array [
-        Object {
-          "loc": Object {
-            "end": Object {
+    {
+      "children": [
+        {
+          "loc": {
+            "end": {
               "column": 86,
               "line": 30,
             },
-            "start": Object {
+            "start": {
               "column": 0,
               "line": 30,
             },
           },
-          "range": Array [
+          "range": [
             360,
             446,
           ],
-          "raw": "This is inline latexmath latexmath:[C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon] example.",
+          "raw": "This is inline latexmath latexmath:[C = \\alpha + \\beta Y^{\\gamma} + \\epsilon] example.",
           "type": "Str",
-          "value": "This is inline latexmath \\\\(C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon\\\\) example.",
+          "value": "This is inline latexmath \\(C = \\alpha + \\beta Y^{\\gamma} + \\epsilon\\) example.",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 86,
           "line": 30,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 30,
         },
       },
-      "range": Array [
+      "range": [
         360,
         446,
       ],
-      "raw": "This is inline latexmath latexmath:[C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon] example.",
+      "raw": "This is inline latexmath latexmath:[C = \\alpha + \\beta Y^{\\gamma} + \\epsilon] example.",
       "type": "Paragraph",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 86,
       "line": 30,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     446,
   ],
@@ -3762,7 +3762,7 @@ sqrt(4) = 2
 :stem: latexmath
 [stem]
 ++++
-C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon
+C = \\alpha + \\beta Y^{\\gamma} + \\epsilon
 ++++
 
 // with title
@@ -3780,26 +3780,26 @@ This is inline stem:[sqrt(4) = 2] example.
 This is inline asciimath asciimath:[sqrt(4) = 2] example.
 
 // inline latexmath
-This is inline latexmath latexmath:[C = \\\\alpha + \\\\beta Y^{\\\\gamma} + \\\\epsilon] example.",
+This is inline latexmath latexmath:[C = \\alpha + \\beta Y^{\\gamma} + \\epsilon] example.",
   "type": "Document",
 }
 `;
 
 exports[`table 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "loc": Object {
-        "end": Object {
+{
+  "children": [
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 1,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 1,
         },
       },
-      "range": Array [
+      "range": [
         0,
         8,
       ],
@@ -3807,18 +3807,18 @@ Object {
       "type": "Comment",
       "value": "basic",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 27,
           "line": 8,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 8,
         },
       },
-      "range": Array [
+      "range": [
         37,
         64,
       ],
@@ -3826,18 +3826,18 @@ Object {
       "type": "Comment",
       "value": "with identical cell text",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 16,
           "line": 17,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 17,
         },
       },
-      "range": Array [
+      "range": [
         157,
         173,
       ],
@@ -3845,18 +3845,18 @@ Object {
       "type": "Comment",
       "value": "complex table",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 22,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 22,
         },
       },
-      "range": Array [
+      "range": [
         194,
         202,
       ],
@@ -3864,18 +3864,18 @@ Object {
       "type": "Comment",
       "value": "empty",
     },
-    Object {
-      "loc": Object {
-        "end": Object {
+    {
+      "loc": {
+        "end": {
           "column": 25,
           "line": 26,
         },
-        "start": Object {
+        "start": {
           "column": 0,
           "line": 26,
         },
       },
-      "range": Array [
+      "range": [
         214,
         239,
       ],
@@ -3883,24 +3883,24 @@ Object {
       "type": "Comment",
       "value": "with header and footer",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 2,
                       "line": 4,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 4,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     22,
                     23,
                   ],
@@ -3909,37 +3909,37 @@ Object {
                   "value": "A",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 2,
                   "line": 4,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 4,
                 },
               },
-              "range": Array [
+              "range": [
                 22,
                 23,
               ],
               "raw": "A",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 4,
                       "line": 4,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 3,
                       "line": 4,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     24,
                     25,
                   ],
@@ -3948,17 +3948,17 @@ Object {
                   "value": "B",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 4,
                   "line": 4,
                 },
-                "start": Object {
+                "start": {
                   "column": 3,
                   "line": 4,
                 },
               },
-              "range": Array [
+              "range": [
                 24,
                 25,
               ],
@@ -3966,39 +3966,39 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 4,
               "line": 4,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 4,
             },
           },
-          "range": Array [
+          "range": [
             22,
             25,
           ],
           "raw": "",
           "type": "TableRow",
         },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 2,
                       "line": 5,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 5,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     27,
                     28,
                   ],
@@ -4007,37 +4007,37 @@ Object {
                   "value": "C",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 2,
                   "line": 5,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 5,
                 },
               },
-              "range": Array [
+              "range": [
                 27,
                 28,
               ],
               "raw": "C",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 4,
                       "line": 5,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 3,
                       "line": 5,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     29,
                     30,
                   ],
@@ -4046,17 +4046,17 @@ Object {
                   "value": "D",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 4,
                   "line": 5,
                 },
-                "start": Object {
+                "start": {
                   "column": 3,
                   "line": 5,
                 },
               },
-              "range": Array [
+              "range": [
                 29,
                 30,
               ],
@@ -4064,17 +4064,17 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 4,
               "line": 5,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 5,
             },
           },
-          "range": Array [
+          "range": [
             27,
             30,
           ],
@@ -4082,41 +4082,41 @@ Object {
           "type": "TableRow",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 4,
           "line": 5,
         },
-        "start": Object {
+        "start": {
           "column": 1,
           "line": 4,
         },
       },
-      "range": Array [
+      "range": [
         22,
         30,
       ],
       "raw": "",
       "type": "Table",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 23,
                       "line": 11,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 11,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     72,
                     94,
                   ],
@@ -4125,37 +4125,37 @@ Object {
                   "value": "Haystack with needles.",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 23,
                   "line": 11,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 11,
                 },
               },
-              "range": Array [
+              "range": [
                 72,
                 94,
               ],
               "raw": "Haystack with needles.",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 21,
                       "line": 11,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 15,
                       "line": 11,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     86,
                     92,
                   ],
@@ -4164,17 +4164,17 @@ Object {
                   "value": "needle",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 21,
                   "line": 11,
                 },
-                "start": Object {
+                "start": {
                   "column": 15,
                   "line": 11,
                 },
               },
-              "range": Array [
+              "range": [
                 86,
                 92,
               ],
@@ -4182,39 +4182,39 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 21,
               "line": 11,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 11,
             },
           },
-          "range": Array [
+          "range": [
             72,
             92,
           ],
           "raw": "",
           "type": "TableRow",
         },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 38,
                       "line": 13,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 13,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     105,
                     142,
                   ],
@@ -4223,37 +4223,37 @@ Object {
                   "value": "Chocolate in someone’s peanut butter.",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 38,
                   "line": 13,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 13,
                 },
               },
-              "range": Array [
+              "range": [
                 105,
                 142,
               ],
               "raw": "Chocolate in someone's peanut butter.",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 7,
                       "line": 14,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 14,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     144,
                     150,
                   ],
@@ -4262,17 +4262,17 @@ Object {
                   "value": "peanut",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 7,
                   "line": 14,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 14,
                 },
               },
-              "range": Array [
+              "range": [
                 144,
                 150,
               ],
@@ -4280,17 +4280,17 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 7,
               "line": 14,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 13,
             },
           },
-          "range": Array [
+          "range": [
             105,
             150,
           ],
@@ -4298,41 +4298,41 @@ Object {
           "type": "TableRow",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 7,
           "line": 14,
         },
-        "start": Object {
+        "start": {
           "column": 1,
           "line": 11,
         },
       },
-      "range": Array [
+      "range": [
         72,
         150,
       ],
       "raw": "",
       "type": "Table",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 8,
                       "line": 22,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 0,
                       "line": 22,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     194,
                     202,
                   ],
@@ -4340,20 +4340,20 @@ Object {
                   "type": "Comment",
                   "value": "empty",
                 },
-                Object {
-                  "children": Array [
-                    Object {
-                      "loc": Object {
-                        "end": Object {
+                {
+                  "children": [
+                    {
+                      "loc": {
+                        "end": {
                           "column": 8,
                           "line": 22,
                         },
-                        "start": Object {
+                        "start": {
                           "column": 0,
                           "line": 22,
                         },
                       },
-                      "range": Array [
+                      "range": [
                         194,
                         202,
                       ],
@@ -4361,22 +4361,22 @@ Object {
                       "type": "Comment",
                       "value": "empty",
                     },
-                    Object {
-                      "children": Array [
-                        Object {
-                          "children": Array [
-                            Object {
-                              "loc": Object {
-                                "end": Object {
+                    {
+                      "children": [
+                        {
+                          "children": [
+                            {
+                              "loc": {
+                                "end": {
                                   "column": 8,
                                   "line": 19,
                                 },
-                                "start": Object {
+                                "start": {
                                   "column": 4,
                                   "line": 19,
                                 },
                               },
-                              "range": Array [
+                              "range": [
                                 183,
                                 187,
                               ],
@@ -4385,35 +4385,35 @@ Object {
                               "value": "text",
                             },
                           ],
-                          "loc": Object {
-                            "end": Object {
+                          "loc": {
+                            "end": {
                               "column": 8,
                               "line": 19,
                             },
-                            "start": Object {
+                            "start": {
                               "column": 4,
                               "line": 19,
                             },
                           },
-                          "range": Array [
+                          "range": [
                             183,
                             187,
                           ],
                           "raw": "text",
                           "type": "Paragraph",
                         },
-                        Object {
-                          "loc": Object {
-                            "end": Object {
+                        {
+                          "loc": {
+                            "end": {
                               "column": 8,
                               "line": 22,
                             },
-                            "start": Object {
+                            "start": {
                               "column": 0,
                               "line": 22,
                             },
                           },
-                          "range": Array [
+                          "range": [
                             194,
                             202,
                           ],
@@ -4422,17 +4422,17 @@ Object {
                           "value": "empty",
                         },
                       ],
-                      "loc": Object {
-                        "end": Object {
+                      "loc": {
+                        "end": {
                           "column": 8,
                           "line": 22,
                         },
-                        "start": Object {
+                        "start": {
                           "column": 4,
                           "line": 19,
                         },
                       },
-                      "range": Array [
+                      "range": [
                         183,
                         202,
                       ],
@@ -4440,17 +4440,17 @@ Object {
                       "type": "ListItem",
                     },
                   ],
-                  "loc": Object {
-                    "end": Object {
+                  "loc": {
+                    "end": {
                       "column": 8,
                       "line": 22,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 0,
                       "line": 22,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     194,
                     202,
                   ],
@@ -4458,17 +4458,17 @@ Object {
                   "type": "List",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 8,
                   "line": 19,
                 },
-                "start": Object {
+                "start": {
                   "column": 2,
                   "line": 19,
                 },
               },
-              "range": Array [
+              "range": [
                 181,
                 187,
               ],
@@ -4476,17 +4476,17 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 8,
               "line": 19,
             },
-            "start": Object {
+            "start": {
               "column": 2,
               "line": 19,
             },
           },
-          "range": Array [
+          "range": [
             181,
             187,
           ],
@@ -4494,41 +4494,41 @@ Object {
           "type": "TableRow",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 8,
           "line": 19,
         },
-        "start": Object {
+        "start": {
           "column": 2,
           "line": 19,
         },
       },
-      "range": Array [
+      "range": [
         181,
         187,
       ],
       "raw": "",
       "type": "Table",
     },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+    {
+      "children": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 8,
                       "line": 29,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 29,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     263,
                     270,
                   ],
@@ -4537,37 +4537,37 @@ Object {
                   "value": "HeaderA",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 8,
                   "line": 29,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 29,
                 },
               },
-              "range": Array [
+              "range": [
                 263,
                 270,
               ],
               "raw": "HeaderA",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 16,
                       "line": 29,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 9,
                       "line": 29,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     271,
                     278,
                   ],
@@ -4576,17 +4576,17 @@ Object {
                   "value": "HeaderB",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 16,
                   "line": 29,
                 },
-                "start": Object {
+                "start": {
                   "column": 9,
                   "line": 29,
                 },
               },
-              "range": Array [
+              "range": [
                 271,
                 278,
               ],
@@ -4594,39 +4594,39 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 16,
               "line": 29,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 29,
             },
           },
-          "range": Array [
+          "range": [
             263,
             278,
           ],
           "raw": "",
           "type": "TableRow",
         },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 3,
                       "line": 31,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 31,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     281,
                     283,
                   ],
@@ -4635,37 +4635,37 @@ Object {
                   "value": "A1",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 3,
                   "line": 31,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 31,
                 },
               },
-              "range": Array [
+              "range": [
                 281,
                 283,
               ],
               "raw": "A1",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 3,
                       "line": 32,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 32,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     285,
                     287,
                   ],
@@ -4674,17 +4674,17 @@ Object {
                   "value": "B1",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 3,
                   "line": 32,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 32,
                 },
               },
-              "range": Array [
+              "range": [
                 285,
                 287,
               ],
@@ -4692,39 +4692,39 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 3,
               "line": 32,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 31,
             },
           },
-          "range": Array [
+          "range": [
             281,
             287,
           ],
           "raw": "",
           "type": "TableRow",
         },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 3,
                       "line": 34,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 34,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     290,
                     292,
                   ],
@@ -4733,37 +4733,37 @@ Object {
                   "value": "A2",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 3,
                   "line": 34,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 34,
                 },
               },
-              "range": Array [
+              "range": [
                 290,
                 292,
               ],
               "raw": "A2",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 3,
                       "line": 35,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 35,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     294,
                     296,
                   ],
@@ -4772,17 +4772,17 @@ Object {
                   "value": "B2",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 3,
                   "line": 35,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 35,
                 },
               },
-              "range": Array [
+              "range": [
                 294,
                 296,
               ],
@@ -4790,39 +4790,39 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 3,
               "line": 35,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 34,
             },
           },
-          "range": Array [
+          "range": [
             290,
             296,
           ],
           "raw": "",
           "type": "TableRow",
         },
-        Object {
-          "children": Array [
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 8,
                       "line": 38,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 1,
                       "line": 38,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     302,
                     309,
                   ],
@@ -4831,37 +4831,37 @@ Object {
                   "value": "FooterA",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 8,
                   "line": 38,
                 },
-                "start": Object {
+                "start": {
                   "column": 1,
                   "line": 38,
                 },
               },
-              "range": Array [
+              "range": [
                 302,
                 309,
               ],
               "raw": "FooterA",
               "type": "TableCell",
             },
-            Object {
-              "children": Array [
-                Object {
-                  "loc": Object {
-                    "end": Object {
+            {
+              "children": [
+                {
+                  "loc": {
+                    "end": {
                       "column": 16,
                       "line": 38,
                     },
-                    "start": Object {
+                    "start": {
                       "column": 9,
                       "line": 38,
                     },
                   },
-                  "range": Array [
+                  "range": [
                     310,
                     317,
                   ],
@@ -4870,17 +4870,17 @@ Object {
                   "value": "FooterB",
                 },
               ],
-              "loc": Object {
-                "end": Object {
+              "loc": {
+                "end": {
                   "column": 16,
                   "line": 38,
                 },
-                "start": Object {
+                "start": {
                   "column": 9,
                   "line": 38,
                 },
               },
-              "range": Array [
+              "range": [
                 310,
                 317,
               ],
@@ -4888,17 +4888,17 @@ Object {
               "type": "TableCell",
             },
           ],
-          "loc": Object {
-            "end": Object {
+          "loc": {
+            "end": {
               "column": 16,
               "line": 38,
             },
-            "start": Object {
+            "start": {
               "column": 1,
               "line": 38,
             },
           },
-          "range": Array [
+          "range": [
             302,
             317,
           ],
@@ -4906,17 +4906,17 @@ Object {
           "type": "TableRow",
         },
       ],
-      "loc": Object {
-        "end": Object {
+      "loc": {
+        "end": {
           "column": 16,
           "line": 38,
         },
-        "start": Object {
+        "start": {
           "column": 1,
           "line": 29,
         },
       },
-      "range": Array [
+      "range": [
         263,
         317,
       ],
@@ -4924,17 +4924,17 @@ Object {
       "type": "Table",
     },
   ],
-  "loc": Object {
-    "end": Object {
+  "loc": {
+    "end": {
       "column": 16,
       "line": 38,
     },
-    "start": Object {
+    "start": {
       "column": 0,
       "line": 1,
     },
   },
-  "range": Array [
+  "range": [
     0,
     322,
   ],
